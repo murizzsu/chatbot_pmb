@@ -1,0 +1,757 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Hai",
+        "Hi",
+        "Halo",
+        "Apa Kabar",
+        "Selamat Pagi!",
+        "Selamat Siang!",
+        "Selamat Malam!",
+        "Salam",
+        "Assalamualaikum wr.wb",
+        "Hallo"
+      ],
+      "responses": [
+        "Halo!",
+        "Hai",
+        "Halo, ada yang bisa saya bantu?",
+        "Halo selamat datang",
+        "Hai Kawan"
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [
+        "Dadah",
+        "Selamat Tinggal",
+        "Dah",
+        "Daah",
+        "Semoga harimu menyenangkan",
+        "Ok makasih",
+        "Sampai Jumpa Lagi",
+        "Ok bye",
+        "Terima kasih",
+        "terimakasih",
+        "bye"
+      ],
+      "responses": [
+        "Sampai jumpa lagi yaa",
+        "Kalau ada masalah, hubungi aku lagi ya",
+        "Semoga harimu menyenangkan!"
+      ]
+    },
+    {
+      "tag": "fakultas dan program studi",
+      "patterns": [
+        "fakultas dan program studi yang tersedia?",
+        "akreditasi masing-masing prodi?",
+        "fakultas dan program studi yang ada?",
+        "akreditasi prodi?",
+        "akreditasi fakultas",
+        "informasi fakultas dan program studi",
+        "jurusan yang tersedia?", "ada jurusan apa aja?", 
+        "ada prodi apa saja?",
+        "fakultas yang tersedia", "prodi yang tersedia apa saja", "ada program studi apa saja?", "prodi",
+        "program studi yang ada di ummi"
+      ],
+      "responses": [
+        "Berikut Fakultas dan Program Studi yang ada di Universitas Muhammadiyah Sukabumi: <br> Fakultas Sains dan Teknologi: S1 Teknik Sipil (B), S1 Teknik Informatika (B), S1 Kimia (Baik Sekali). <br> Fakultas Pertanian: S1 Agribisnis (A), S1 Akuakultur (B) <br> Fakultas Ilmu Administrasi dan Humaniora: S1 Administrasi Publik (B), S1 Administrasi Bisnis (A), S1 Sastra Inggris (B), D3 Hubungan Masyarakat (Baik) <br> Fakultas Ekonomi: D3 Perpajakan (B), S1 Akutansi (B), S1 Manajemen Ritel (*). <br> Fakultas Keguruan dan Ilmu Pendidikan: S1 Pendidikan Biologi (B), S1 Pendidikan Bahasa dan Sastra Indonesia (B), S1 Pendidikan Jasmani, Kesehatan, dan Rekreasi (B), S1 Pendidikan Guru PAUD (B), S1 Pendidikan Teknologi Informasi (B), S1 Pendidikan Matematika (B), S1 Pendidikan Guru Sekolah Dasar (B). <br> Fakultas Kesehatan: D3 Keperawatan (B), S1 Keperawatan (Pendidikan Ners) (Baik). <br> Fakultas Hukum: S1 Ilmu Hukum (B). <br> Program Magister: S2 Magister Ilmu Administrasi (B)."
+      ]
+    },
+    {
+      "tag": "Jadwal Pendaftaran",
+      "patterns": [
+        "Kapan jadwal pendaftaran dibuka?",
+        "Kapan Gelombang Pendaftaran selanjutnya?",
+        "tanggal berapa pendaftaran dibuka?",
+        "jadwal pendaftaran diadakan kapan?",
+        "informasi seputar jadwal pendaftaran di ummi?",
+        "Apakah ada batas waktu pendaftaran untuk kuliah?"
+      ],
+      "responses": [
+        "<img src='https://www.pmb.ummi.ac.id/assets/images/pages/d491a99b56100fa7aaab34e30be8462e.png' width='100%'> <br>Berikut Jadwal Pendaftaran Mahasiswa Baru Tahun Akademik 2023/2024: <br> 1. Gelombang 1:  28 November 2022 - 31 Maret 2023 <br> 2. Gelombang 2: 01 April 2023 - 30 Juni 2023 <br> 3. Gelombang 3: 01 Juli 2023 - 20 September 2023"
+      ]
+    },
+    {
+      "tag": "Petunjuk Pendaftaran",
+      "patterns": [
+        "Bagaimana cara untuk mendaftar?",
+        "petunjuk pendaftaran?",
+        "langkah-langkah untuk mendaftar",
+        "tahapan untuk mendaftar!",
+        "bagaimana cara melakukan pendaftaran?",
+        "Langkah-langkah apa saja yang perlu dilakukan untuk mendaftar? ", 
+        "bagaimana cara melakukan pendaftaran secara online?", 
+        "untuk pendaftaran online gimana ya kak?",
+        "minta bantuan buat daftar online", 
+        "gimana alur pendaftaran di ummi",
+        "bagaimana proses pendaftaran di ummi?",
+        "bagaimana prosedur pendaftaran di ummi?",
+        "Apa persyaratan yang harus dipenuhi untuk mendaftar"
+      ],
+      "responses": [
+        "Pilih jenis pendaftaran yang diinginkan: <br> 1. Mahasiswa Baru <br> 2. Transfer Pindahan <br> 3. RPL <br> 4. Alih Jenjang <br> 5. Fast Track <br> 6. Pasca Sarjana"
+      ]
+    },
+    {
+      "tag": "Mahasiswa Baru",
+      "patterns": [
+        "1. Mahasiswa Baru",
+        "1",
+        "Mahasiswa Baru"
+      ],
+      "responses": [ "Tata cara pendaftaran mahasiswa baru : <br> 1. Buka website www.pmb.ummi.ac.id PMB UMMI  kemudian klik tombol 'Daftar Mahasiswa Baru' <br> 2. Masuk ke www.pmb.ummi.ac.id menggunakan email yang sudah didaftarkan <br> 3. Isi Identitas, Asal Sekolah, Pilih Jurusan <br> 4. Transfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> Biaya pendaftaran UMMI : <br> Program D3 & S1 kecuali Fakultas Kesehatan : Rp. 202.000 <br> Program D3 & S1  Fakultas Kesehatan : Rp. 302.000 <br> Program S2 MIA : Rp. 502.000 <br> 5. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 6. Upload berkas pendaftaran (Syarat berkas akan muncul di halaman web PMB) <br> 7. Tunggu konfirmasi (penentuan tes/tidak tes) maksimal 2x24 Jam (tidak termasuk hari minggu/tanggal merah) <br> 8. Ketika dinyatakan 'Tes', Maka melakukan tes online di www.pmb.ummi.ac.id/cbt, namun menunggu informasi jadwal tes dari hotline PMB UMMI karena tes di adakan serentak. Jadi, tidak bisa melakukan tes sebelum jadwal dari admin. Dan ketika dinyatakan 'non tes' maka lanjut ke tahap selanjutnya <br>9. Lengkapi biodata di akun pendaftaran <br> 10. Lakukan registrasi ulang. <br> <br> Catatan : <br> Jika ingin mengajukan beasiswa yang disediakan oleh UMMI kecuali beasiswa KIP silahkan di ajukan setelah melakukan pembayaran registrasi ulang , dan menyerahkan berkas persyaratan ke FO PMB UMMI. <br> <br> Berkas persyaratan beasiswa : <br> 1. FC ijazah / Rapot smt 5 atau 6 <br> 2. FC KTP <br> 3. Sertifikat Asli beasiswa / Prestasi yang ingin di ajukan <br><br> Setelah menyerahkan pengajuan beasiswa ke FO PMB UMMI, mohon menunggu konfirmasi dari hotline paling cepat minimal 7 hari di jam kerja <br> <br> #Jika mahasiswa di nyatakan tes, maka tes menunggu jadwal yang disediakan oleh UMMI <br>#Tes di adakan serentak"
+      ]
+    },
+    {
+      "tag": "transfer pindahan",
+      "patterns": [
+        "2. Transfer Pindahan",
+        "2",
+        "Transfer Pindahan"
+      ],
+      "responses": [
+        "Untuk Pendaftaran TRANSFER/PINDAHAN bisa mengikuti langkah-langkah di bawah ini: <br> 1. Buka website www.pmb.ummi.ac.id <br> 2. Klik tombol \"Daftar Transfer/Pindahan\" <br> 3. Masuk ke www.pmb.ummi.ac.id menggunakan email yang sudah didaftarkan <br> 4. Isi Identitas, Asal Sekolah, Pilih Jurusan <br> 5. Tranfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> 6. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 7. Upload berkas pendaftaran (Fc. Ijazah dan Transkrip Nilai) di web PMB <br> 8. Menyerahkan berkas pendaftaran (Fc. Ijazah dan Transkrip Nilai) ke FO PMB UMMI atau Konfirmasi ke hotline PMB (081293850718) untuk melaksanakan konversi <br> 9. Lengkapi biodata di akun pendaftaran <br> 10. Lakukan registrasi ulang."
+      ]
+    },
+    {
+      "tag": "RPL",
+      "patterns": [
+        "3. RPL",
+        "3",
+        "RPL", "Program Penyetaraan"
+      ],
+      "responses": [
+        "<b> Program Penyetaraan </b> <br> <img src='https://www.pmb.ummi.ac.id/assets/images/pages/a205f3d776d938b0f924a330e74142fa.jpg' width='100%'> <br> <img src='https://www.pmb.ummi.ac.id/assets/images/pages/2ffe3b233563290595b39a367fcffc04.jpg' width='100%'> <br> Tata Cara Pendaftaran Mahasiswa RPL <br> 1. Buka website www.pmb.ummi.ac.id Klik tombol 'Daftar RPL' <br> 2. Masuk ke www.pmb.ummi.ac.id menggunakan email yang sudah didaftarkan <br> 3. IsiIdentitas, Asal Sekolah, Pilih Jurusan ,br> 4. Tranfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> 5. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 6. Unggah Portofolio dan beberapa berkas yang diminta oleh sistem <br> 7. Setelah berkas terunggah silahkan melakukan konfirmasi ke whatsapp hotline PMB UMMI (081293850718) dan menyampaikan bahwa sudah mengunggah berkas di web PMB UMMI <br> 8. Setelah berkas dicek oleh admin, akan ada konfirmasi melalui whatsapp kepada calon mahasiswa untuk menghubungi ketua program studi dan mengonfirmasi bahwa berkas sudah diunggah oleh calon mahasiswa. <br> 9. Calon mahasiswa akan berkomunikasi secara langsung dengan ketua program studi terkait lama perkuliahan dan assesment. <br> 10. Setelah mendapatkan informasi terkait assesment, admi  akan menghubungi calon mahasiswa terkait lama perkuliahan dan membuat kesepakatan akan dilanjutkan atau tidaknya proses pendaftaran <br> 11. Setelah membuat kesepakatan untuk dilanjut proses pendaftaran, admin akan membantu mengarahkan calon mahasiswa untuk melakukan pembayaran registrasi ulang"
+      ]
+    },
+    {
+      "tag": "Alih Jenjang",
+      "patterns": [
+        "4. Alih Jenjang",
+        "4",
+        "Alih Jenjang"
+      ],
+      "responses": [
+        "Langkah-langkah pendaftaran untuk Alih Jenjang: <br> 1. Buka website www.pmb.ummi.ac.id <br> 2. Klik tombol \"Daftar Alih Jenjang\" <br> 3. Masuk ke www.pmb.ummi.ac.id menggunakan email yang sudah didaftarkan <br> 4. Isi Identitas, Asal Sekolah, Pilih Jurusan <br> 5. Tranfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> 6. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 7. Upload berkas pendaftaran (Fc. Ijazah dan Transkrip Nilai) di web PMB <br> 8. Menyerahkan berkas pendaftaran (Fc. Ijazah dan Transkrip Nilai) ke FO PMB UMMI atau Konfirmasi ke hotline PMB (081293850718) untuk melaksanakan konversi <br> 9. Lengkapi biodata di akun pendaftaran <br> Lakukan registrasi ulang."
+      ]
+    },
+    {
+      "tag": "Fast Track",
+      "patterns": [
+        "5. Fast Track",
+        "5",
+        "Fast Track"
+      ],
+      "responses": [
+        "Langkah-langkah pendaftaran untuk Fast Track: <br> 1. Buka website www.pmb.ummi.ac.id <br> 2. Klik tombol \"Daftar Fast Track\" <br> 3. Masuk ke www.pmb.ummi.ac.id menggunakan email yang sudah didaftarkan <br> 4. Isi Identitas, Asal Sekolah, Pilih Jurusan <br> 5. Tranfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> 6. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 7. Upload berkas pendaftaran di web PMB <br> 8. Tunggu konfirmasi (penentuan tes/tidak tes) maksimal 2x24 Jam (tidak termasuk hari minggu) <br> 9. Ketika dinyatakan \"Tes\", Maka melakukan tes online di www.pmb.ummi.ac.id/cbt, dan ketika dinyatakan \"non tes\" maka lanjut ke tahap selanjutnya <br> 10. Lengkapi biodata di akun pendaftaran <br> 11. Lakukan registrasi ulang."
+      ]
+    },{
+      "tag": "pasca sarjana",
+      "patterns": ["6.", "Pasca Sarjana adalah","pascasarjana", "program pascasarjana", "program pasca sarjana"],
+      "responses": ["<b> Program Pasca Sarjana </b> <img src='https://www.pmb.ummi.ac.id/assets/images/pages/479804bc62247dc3d114a31058fb30e8.jpg' width='100%'><br>  <img src='https://www.pmb.ummi.ac.id/assets/images/pages/a7fbd9f6a45d61c0c177621b96501941.jpg' width=100%> <br> <br> Pendidikan program Pascasarjana Magister Ilmu Administrasi Universitas Muhammadiyah Sukabumi diselenggarakan untuk meningkatkan kemampuan intelektualitas sumber daya manusia di bidang Administrasi serta mendukung program pemerintah dalam rangka membangun kecerdasan kehidupan bangsa. <br> <a href='ppsmia@ummi.ac.id'> Email </a> <br> <a href=' https://mia.ummi.ac.id'> Website </a> <br> PETUNJUK PENDAFTARAN MAHASISWA BARU PASCASARJANA <br> 1. Buka <a href='www.pmb.ummi.ac.id'> website </a> <br> 2. Klik tombol 'Daftar Mahasiswa Baru' <br> 3. Masuk ke <a href='www.pmb.ummi.ac.id'> website </a>  menggunakan email yang sudah didaftarkan <br> 4. Isi Identitas, Asal Sekolah, Pilih Jurusan <br> 5. Tranfer uang pendaftaran untuk mendapatkan PIN sejumlah yang tertera di akun pendaftaran <br> 6. Setelah pembayaran PIN terkirim, maka akan otomatis diverifikasi oleh sistem dan PIN beserta No. Peserta akan ditampilkan di akun pendaftaran <br> 7. Upload berkas pendaftaran <br> 8. Tunggu konfirmasi (nontes) maksimal 2x24 Jam (tidak termasuk hari minggu) <br> 9. Ketika dinyatakan 'non tes' maka lanjut ke tahap selanjutnya <br> 10. Lengkapi biodata di akun pendaftaran <br> 11. Lakukan registrasi ulang."]
+    },
+    {
+      "tag": "Beasiswa",
+      "patterns": [
+        "Beasiswa apa saja yang ada?",
+        "Bagaimana cara mendapatkan beasiswa?",
+        "ada beasiswa apa saja?",
+        "daftar beasiswa untuk calon mahasiswa?",
+        "Bagaimana cara mendapatkan beasiswa?", 
+        "kan di ummi ada beasiswa non akademik, kriterianya seperti apa ya kak?",
+        "kriteria beasiswa non akademik",
+        "apakah masih ada beasiswa untuk kuliah di ummi?",
+        "apakah di ummi menerima beasiswa KIP?", 
+        "kalau beasiswa potongannya berapa ya biayanya?",
+        "apakah tersedia beasiswa peringkat kelas?",
+        "kalo di ummi bisa menggunakan kip kuliah?"
+      ],
+      "responses": [
+        "Hallo Cendikiawan Muda, UMMI menyediakan banyak program beasiswa yang ditujukan bagi calon mahasiswa baru diantaranya : <br> 1. Beasiswa Kartu Indonesia Pintar (KIP) <br> 2. Beasiswa Akademik <br> Beasiswa Akademik diperuntukkan bagi mahasiswa/mahasiswi yang memiliki prestasi akademik maksimal 3 tahun terakhir. <br> Persyaratan : <br> - Menyelesaikan tahap pendaftaran s.d registrasi di www.pmb.ummi.ac.id <br> - Beasiswa ini hanya untuk kelas regular. <br> - Prestasi yang dimiliki merupakan prestasi perorangan bukan grup/kelompok. <br> - Memiliki Prestasi Akademik minimal tingkat Kota/Kab Peringkat 1-3. <br> -Menyerahkan FC KTP, FC Rapot smtr 5/6, dan Sertifikat atau Surat Pernyataan yang menyatakan prestasi tsb ke Front Office PMB UMMI. <br> Beasiswa Akademik ini berupa potongan biaya DPP. <br> - Peringkat 1-3 Kota/Kab mendapat potongan DPP sebesar Rp. 750.000 <br> -Peringkat 1-3 Provinsi mendapat potongan DPP sebesar Rp. 1.125.000 <br> -Peringkat 1-3 Nasional mendapat potongan DPP sebesar Rp. 1.500.000 <br> -Peringkat 1-3 Internasional mendapat potongan DPP sebesar Rp. 2.250.000 <br> <br> 3. Beasiswa Non Akademik <br> Beasiswa Non Akademik diperuntukkan bagi mahasiswa/mahasiswi yang memiliki prestasi Non Akademik maksimal 3 tahun terakhir. <br> Persyaratan : <br> - Menyelesaikan tahap pendaftaran s.d registrasi di pmb.ummi.ac.id. <br> - Beasiswa ini hanya untuk kelas regular. <br> - Prestasi yang dimiliki merupakan prestasi perorangan bukan grup/kelompok. <br> -Memiliki Prestasi Non Akademik minimal tingkat Kota/Kab Peringkat 1-3. <br> -Menyerahkan FC KTP, FC Rapot smtr 5/6, dan Sertifikat atau Surat Pernyataan yang menyatakan prestasi tsb ke Front Office PMB UMMI. <br> Beasiswa Non Akademik ini berupa potongan biaya DPP. <br> - Peringkat 1-3 Kota/Kab mendapat potongan DPP sebesar Rp. 750.000 <br> - Peringkat 1-3 Provinsi mendapat potongan DPP sebesar Rp. 1.125.000 <br> - Peringkat 1-3 Nasional mendapat potongan DPP sebesar Rp. 1.500.000 <br> - Peringkat 1-3 Internasional mendapat potongan DPP sebesar Rp. 2.250.000 <br> 4. Beasiswa Peringkat Kelas <br> Beasiswa Rangking diperuntukkan bagi mahasiswa/mahasiswi yang memiliki prestasi peringkat kelas 1-5 di semester 5 atau 6. <br> Persyaratan: <br> - Menyelesaikan tahap pendaftaran s.d registrasi di pmb.ummi.ac.id <br> - Beasiswa ini hanya untuk kelas reguler <br> - Menyerahkan FC KTP, FC Rapot smtr 5/6, dan Sertifikat atau Surat Pernyataan yang menyatakan keterangan rangking ke Front Office PMB UMMI. <br> Beasiswa Rangking ini berupa potongan biaya DPP sebesar Rp. 562.000 <br> 5. Beasiswa Hafidz Al-Quran <br> Beasiswa Hafidz Al-Quran ini diperuntukkan bagi calon mahasiswa/mahasiswi yang memiliki hafalan Al Quran minimal 1 Juz sampai dengan 30 Juz. <br> Persyaratan: <br> - Menyelesaikan tahap pendaftaran s.d registrasi di pmb.ummi.ac.id. <br> - Beasiswa ini hanya untuk kelas regular. <br> - Memiliki hafalan min 1 Juz <br> - Menyerahkan FC KTP, FC Rapot smtr 5/6, dan sertifikat atau keterangan lainnya ke Front Office PMB UMMI. <br> - Melaksanakan tes Hafidz Quran. <br> Beasiswa Hafidz Al-Quran ini berupa potongan beasiswa, jumlah pemotongan beasiswa disesuaikan dengan tingkatan hafalan Quran sebagai berikut : <br> - Hafalan 1 Juz mendapatkan potongan DPP sebesar Rp. 562.000 <br> - Hafalan 2 Juz mendapatkan potongan DPP sebesar Rp. 750.000 <br> - Hafalan 3 Juz mendapatkan potongan DPP sebesar Rp. 937.500 <br> - Hafalan 4 Juz mendapatkan potongan DPP sebesar Rp. 1.125.000 <br> - Hafalan 5 Juz mendapatkan potongan DPP sebesar Rp. 1.312.000 <br> - Hafalan 6 Juz mendapatkan potongan DPP sebesar Rp. 1.500.000 <br> - Hafalan 7 Juz mendapatkan potongan DPP sebesar Rp. 1.687.000 <br> - Hafalan 8 Juz mendapatkan potongan DPP sebesar Rp. 1.875.000 <br> - Hafalan 9 Juz mendapatkan potongan DPP sebesar Rp. 2.062.500 <br> - Hafalan 10-15 Juz mendapatkan potongan DPP sebesar Rp. 2.812.500, Infaq sebesar Rp. 937.500 dan SPP selama 1 semester. <br> - Hafalan 16-20 Juz mendapatkan potongan DPP sebesar Rp. 2.812.500, Infaq sebesar Rp. 937.500 dan SPP selama 2 semester. <br> - Hafalan 21-25 Juz mendapatkan potongan DPP sebesar Rp. 2.812.500, Infaq sebesar Rp. 937.500 dan SPP selama 3 semester. <br> - Hafalan 26-30 Juz mendapatkan potongan DPP sebesar Rp. 2.812.500, Infaq sebesar Rp. 937.500 dan SPP selama 4 semester. <br> - Calon mahasiswa yang mampu menghafal di bawah 10 juz dan memiliki prestasi lain dapat memperoleh beasiswa akumulasi. <br> 6. Beasiswa Alumni SMA/SMK/MA Muhammadiyah <br>  Beasiswa Alumni atau Lulusan Muhammadiyah diperuntukkan bagi calon mahasiswa/mahasiswi yang merupakan alumni atau lulusan SMA/SMK/MA Muhammadiyah di seluruh Indonesia. <br> Persyaratan: <br> - Menyelesaikan tahap pendaftaran s.d registrasi di pmb.ummi.ac.id. <br> - Beasiswa ini hanya untuk kelas regular.<br> - Merupakan alumni atau lulusan SMA/SMK/MA Muhammadiyah di seluruh Indonesia. <br> - Menyerahkan FC KTP, FC Rapot smtr 5/6, FC Ijazah yang dilegaliisir ke Front Office PMB UMMI. <br>  Beasiswa Alumni atau Lulusan Muhammadiyah ini berupa potongan DPP sebesar Rp. 2.812.500,- <br> Bagi lulusan SMA/SMK/MA Muhammadiyah di seluruh Indonesia yang mendapatkan prestasi akademik atau non akademik peringkat 1-3 minimal tingkat Kota/Kab mendapatkan beasiswa bebas DPP. <br> 7. Beasiswa Warga Muhammadiyah <br> Beasiswa Kader Muhammadiyah diperuntukkan bagi calon mahasiswa/mahasiswi yang memiliki hubungan biologis dengan pengurus PRM, PCM, PDM, PWM, PPM, Majelis/Lembaga, Anggota Muhammadiyah dan Kader Muhammadiyah yang menjadi pengurus di organisasi Otonom Muhammadiyah di seluruh Indonesia. <br> Persyaratan : <br> - Menyelesaikan tahap pendaftaran s.d registrasi di pmb.ummi.ac.id. <br> - Beasiswa ini hanya untuk kelas regular. <br> - Memiliki SK kepengurusan atau Rekomendasi dari pimpinan setingkat daerah. <br> - Menyerahkan FC KTP, FC Rapot smtr 5/6, FC Kartu Tanda Anggota Muhammadiyah dan SK Kepengurusan atau Surat Rekomendasi dari PCM/PDM ke Front Office PMB UMMI. <br> Beasiswa Kader Muhammadiyah ini berupa potongan biaya DPP sebesar 50%. <br> 8. Beasiswa Difabel <br> 9. Beasiswa Disabilitas <br> 10. Beasiswa Afirmasi"
+      ]
+    },
+    {
+      "tag": "Program Sarjana",
+      "patterns": [
+        "Apa itu program sarjana?",
+        "program sarjana adalah?",
+        "informasi terkait program sarjana",
+        "apa itu program diploma?",
+        "program diploma sarjana adalah", 
+        "apa saja program sarjana yang ada di ummi",
+        "sarjana"
+      ],
+      "responses": [
+        "<img src='https://www.pmb.ummi.ac.id/assets/images/pages/1dfc6b86bb461dee13bb56ed35244f57.png' width='100%'> <br> <img src='https://www.pmb.ummi.ac.id/assets/images/pages/e2dcfee5daa824d57a2d001138ff0441.png' width='100%'> <br> Program diploma dan sarjana adalah gelar pertama yang dapat Anda raih di universitas bagi Anda yang merupakan lulusan SMA/SMK/MA atau institusi pendidikan yang sederajat, dan sedang mencari peluang untuk melanjutkan belajar di tingkat pendidikan tinggi. <br> Anda akan dapat memilih 3 tawaran program diploma dan 19 tawaran program sarjana pada bidang studi yang berbeda di UMMI. Klik pada salah satu tautan yang tersedia di bawah ini untuk menemukan detail informasi tentang profil dari setiap program pendidikan, persyaratan masuk, perkiraan biaya studi, dan informasi penting lainnya. <br>  <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/teknik-sipil'>S-1 Teknik Sipil</a> <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/teknik-informatika'>S-1 Teknik Informatika</a>  <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/kimia'> S1 - Kimia </a> <br> <a href='https://ummi.ac.id/id/fakultas/petanian/agribisnis'> S-1 Agribisnis </a> <br> <a href='https://ummi.ac.id/id/fakultas/petanian/akuakultur'>S-1 Akuakultur</a>  <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-publik'> S-1 Administrasi Publik</a> <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-bisnis'> S-1 Administrasi Bisnis</a> <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/sastra-inggris'> S-1 Sastra Inggris </a> <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/hubungan-masyarakat'> D-3 Hubungan Masyarakat </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/d-iii-perpajakan'> D-3 Perpajakan </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/akuntansi'>S-1 Akuntansi </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/manajemen-retail'> S-1 Manajemen Ritel </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-biologi'>S-1 Pendidikan Biologi </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-bahasa-indonesia'> S-1 Pendidikan Bahasa dan Sastra Indonesia </a>  <br>  <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-jasmani-kesehatan-dan-rekreasi'> S-1 Pendidikan Jasmani, Kesehatan dan Rekreasi </a>  <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-pendidikan-anak-usia-dini'> S-1 Pendidikan Guru PAUD </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-teknologi-informasi'> S-1 Pendidikan Teknologi Informasi </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-matematika'> S-1 Pendidikan Matematika </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-sekolah-dasar'> S-1 Pendidikan Guru Sekolah Dasar </a> <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/d-iii-keperawatan'> D-3 Keperawatan </a> <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/s1-keperawatan-pendidikan-profesi-ners'> S-1 Keperawatan (Pendidikan Ners) </a> <br> <a href='https://ummi.ac.id/id/fakultas/hukum/ilmu-hukum'> S-1 Ilmu Hukum </a> <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/teknik-sipil'> S-1 Teknik Sipil </a> <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/teknik-informatika'> S-1 Teknik Informatika </a> <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/kimia'> S-1 Kimia </a> <br> <a href='https://ummi.ac.id/id/fakultas/petanian/agribisnis'> S-1 Agribisnis </a> <br> <a href='https://ummi.ac.id/id/fakultas/petanian/akuakultur'> S-1 Akuakultur </a> <br>  <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-publik'> S-1 Administrasi Publik </a> <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-bisnis'>S-1 Administrasi Bisnis </a> <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/sastra-inggris'> S-1 Sastra Inggris </a> <br> <ahref='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/hubungan-masyarakat'> D-3 Hubungan Masyarakat </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/d-iii-perpajakan'> D-3 Perpajakan </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/akuntansi'> S-1 Akuntansi </a> <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/manajemen-retail'> S-1 Manajemen Ritel </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-biologi'> S-1 Pendidikan Biologi </a> <br><a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-bahasa-indonesia'> S-1 Pendidikan Bahasa dan Sastra Indonesia</a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-jasmani-kesehatan-dan-rekreasi'> S-1 Pendidikan Jasmani, Kesehatan dan Rekreasi </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-pendidikan-anak-usia-dini'> S-1 Pendidikan Guru PAUD </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-teknologi-informasi'> S-1 Pendidikan Teknologi Informasi </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-matematika'>S-1 Pendidikan Matematika </a> <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-sekolah-dasar'> S-1 Pendidikan Guru Sekolah Dasar </a> <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/d-iii-keperawatan'>D-3 Keperawatan </a> <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/s1-keperawatan-pendidikan-profesi-ners'> S-1 Keperawatan (Pendidikan Ners)</a> <br> <a href='https://ummi.ac.id/id/fakultas/hukum/ilmu-hukum'> S-1 Ilmu Hukum </a>"
+      ]
+    },
+    {
+      "tag": "Program Profesi Ners",
+      "patterns": [
+        "Apa itu program profesi ners",
+        "informasi tentang program profesi ners?"
+      ],
+      "responses": [
+        "Visi <br> Menjadikan Program Studi Pendidikan Profesi Ners yang Unggul di Bidang Keperawatan Medikal Bedah, Islami dan Kompetitif pada Tahun 2022 <br> Misi <br> - Mewujudkan lingkungan akademik Islami <br> - Mewujudkan pendidikan yang bermutu dengan keunggulan medikal bedah <br> - Menghasilkan penelitian yang unggul di bidang keperawatan medikal bedah <br> - Melaksanakan pengabdian masyarakat di bidang keperawatan berdasarkan nilai nilai keislaman dan kemuhammadiyahan. <br> - Menjalin kerjasama dalam dan luar negeri untuk mengembangkan ilmu keperawatan. <br> Tujuan <br> - Menghasilkan Ners professional yang memiliki nilai-nilai islami dalam pelayanan keperawatan <br> - Mewujudkan atmosfir akademik yang kondusif, dan berpikir kritis guna menghasilkan lulusan sebagai ners professional yang mengedepankan nilai-nilai keislaman. <br> - Menghasilkan Ners professional dengan kualitas lulusan yang kompetitif di bidang keperawatan medikal bedah <br> - Menghasilkan Ners professional yang mampu berperan sebagai agent of change dalam bidang keperawatan medikal bedah sebagai hasil kerjasama di masyarakat."
+      ]
+    },
+    {
+      "tag": "Browsur UMMI",
+      "patterns": [
+        "Boleh minta link browsur?",
+        "Dimana saya bisa mendapatkan browsur?",
+        "boleh minta browsur?",
+        "pamflet ummi bisa diakses dimana?",
+        "boleh minta pamflet ummi?"
+      ],
+      "responses": [
+        "<img src='https://www.pmb.ummi.ac.id/assets/images/pages/327ef5891fdb7dd29c0e28c5fea12334.jpg' width='100%'> <br> <img src='https://www.pmb.ummi.ac.id/assets/images/pages/ea0b155e5fdab47bf095b8870464ef1f.jpg' width='100%'> <br> Browsur UMMI bisa di akses di <a href='https://www.pmb.ummi.ac.id/page/brosur-ummi'> sini </a>"
+      ]
+    },
+    {
+      "tag": "Rincian Biaya",
+      "patterns": [
+        "Berapa biaya untuk kelas reguler dan non reguler?",
+        "rincian biaya yang dikeluarkan masing-masing jurusan?",
+        "Berapa biaya yang dikeluarkan untuk setiap semesternya",
+        "Berapa biaya tiap semester?",
+        "tiap semesternya bayar berapa ya kak?",
+        "boleh saya tau biaya kuliah yang reguler",
+        "biaya kuliah non reguler",
+        "boleh unfo rincian biaya pendaftaran beserta biaya persemestrenya"
+      ],
+      "responses": [
+        "<img src='https://www.pmb.ummi.ac.id/assets/images/pages/183ec30de0c4af23192de2d562605d1d.jpg' width='100%'> <br> Untuk rincian biaya dapat diakses melalui link di bawah ini: <br> <a href='https://drive.google.com/file/d/1fXQKDqhpop1VIieYhbkhov3X0LiQsKRA/view'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Kontak Kami",
+      "patterns": [
+        "Boleh minta no whatsapp?",
+        "Adakah kontak yang bisa dihubungi?",
+        "informasi kontak yang dapat dihubungi?",
+        "dimana saya bisa mendapatkan informasi lebih lanjut?",
+        "Boleh minta email?",
+        "Apakah ada email wa atau facebook yang dapat dihubungi?",
+        "Apakah memiliki sosial media?"
+      ],
+      "responses": [
+        "Kontak Kami: <br> Alamat: Jl. R. Syamsudin, S.H. No. 50 Sukabumi <br> Email: info.pmb@ummi.ac.id <br> WhatsApp : 0812 9385 0718 <br> Facebook : Universitas Muhammadiyah Sukabumi <br> Instagram: @ummi_sukabumi<br> Tiktok: ummi_sukabumi <br>"
+      ]
+    },
+    {
+      "tag": "UMMI",
+      "patterns": [
+        "Apa itu UMMI?",
+        "UMMI didirikan pada?",
+        "Universitas Muhammadiyah Sukabumi adalah?",
+        "UMMI adalah?",
+        "Sejarah UMMI",
+        "Sejarah Universitas Muhammadiyah Sukabumi adalah?", 
+        "universitas muhammadiyah sukabumi"
+      ],
+      "responses": [
+        "<img src='https://ummi.ac.id/assets/uploads/tentang/1668128829.png' width='100%'> <br> Universitas Muhammadiyah Sukabumi merupakan salah satu perguruan tinggi swasta di bawah naungan amal usaha Muhammadiyah. <br> Universitas Muhammadiyah Sukabumi didirikan berdasarkan kajian dan studi kelayakan yang dilakukan pengurus Pimpinan Daerah Muhammadiyah (PDM) Sukabumi, tanggal 1 Desember 2000 yang memutuskan untuk segera merealisasikan Keputusan Musyawarah Daerah Muhammadiyah 1996, yaitu mendirikan Universitas Muhammadiyah Sukabumi yang disingkat UMMI dengan kampus yang berada di komplek Perguruan Muhammadiyah Jl. R. Syamsudin, S.H. No. 50 Sukabumi. Tujuan didirikannya UMMI adalah sebagai berikut : <br> 1. Membangun masyarakat dalam segala aspek kehidupannya; <br> 2. Membangun masyarakat Islami yang sebenar-benarnya; <br> 3. Membangun nilai-nilai kearifan lokal dalam bidang teknologi, pertanian, budaya, pendidikan dan budaya ekonomi lokal yang pada akhirnya mencapai tingkat global. <br> Tujuan pembangunan UMMI ini berkaitan erat dengan falsafah Pendidikan Tinggi Muhammadiyah yaitu mengembangkan keilmuan dan Al-Islam, berilmu dan beramal demi membangun bangsa dan negara. <br> Pendirian UMMI memperoleh dukungan dari berbagai pihak yaitu Pemerintah Kota dan Kabupaten Sukabumi, para cendikia dan masyarakat. UMMI diharapkan dapat mempelopori pembangunan sumber daya manusia (SDM) yang relevan dengan tuntutan pembangunan di masa depan baik untuk wilayah Sukabumi, Jawa Barat, Nasional maupun Internasional. <br> UMMI didirikan berdasarkan surat ijin operasional Menteri Pendidikan Nasional  dengan Nomor: 81/D/0/2003 pada tanggal 13 Juni 2003. Berdasarkan ijin operasional tersebut sampai dengan tahun 2011/2012, UMMI memiliki 14 program studi, Lembaga Penelitian dan Pengabdian Masyarakat (LPPM). <br> Sejak pendirian,  jumlah mahasiswa UMMI terus bertambah, sampai dengan tahun 2012 sebanyak 2.494 mahasiswa dengan rata-rata pertumbuhan sebesar 17% setiap tahunnya. Hal ini menunjukan kepercayaan masyarakat yang semakin baik terhadap UMMI dan harus dijadikan sebagai modal dasar untuk pengembangan UMMI di masa yang akan datang. <br> <br> Selain daripada sejarah, kamu juga bisa mengetahui terkait: <br> - Visi, Misi, Tujuan dan Sasaran Universitas Muhammadiyah Sukabumi <br> - Struktur Organisasi Universitas Muhammadiyah Sukabumi <br> - Pimpinan Universitas Muhammadiyah Sukabumu <br> - Identitas Universitas Muhammadiyah Sukabumi <br> - Lokasi Kampus <br> - Fasilitas Universitas Muhammadiyah Sukabumi"
+      ]
+    },
+    {
+      "tag": "Visi, Misi, Tujuan dan Sasaran Universitas Muhammadiyah Sukabumi",
+      "patterns": [
+        "Visi dan Misi UMMI?",
+        "Visi Misi Universitas Muhammadiyah Sukabumi",
+        "Tujuan dan Sasaran UMMI",
+        "Visi Misi Tujuan dan Sasaran yang dimiliki ummi?",
+        "Visi Misi UMMI adalah?"
+      ],
+      "responses": [
+        "<b> Universitas Muhammadiyah Sukabumi </b> <br><img src='https://ummi.ac.id/assets/uploads/tentang/1668129809.png' width='100%'> <br> Visi: <br> Terwujudnya Universitas Muhammadiyah Sukabumi yang Unggul dalam Keilmuan dan Ke-Islaman pada tahun 2022. <br> Misi: <br> - Menyelenggarakan pendidikan tinggi yang berkualitas serta melakukan kegiatan pembelajaran yang didasari hasil-hasil penelitian ilmiah yang akurat dan mutakhir. <br> - Menyelenggarakan dan mengembangkan IPTEKS melalui penelitian yang berkualitas serta mempunyai nilai maslahat bagi umat manusia. <br> - Melaksanakan pengabdian kepada masyarakat melalui pengembangan dan penyebaran IPTEKS dalam rangka meningkatkan kualitas hidup masyarakat dan kemajuan persyarikatan Muhammadiyah. <br> - Mengembangkan Al-Islamdan Kemuhammadiyahan berdasarkan Qur'an dan Sunnah. <br> - Meningkatkan kualitas UMMI dalam SDM, sarana dan prasarana serta kerjasama <br> Tujuan: <br> - Terselenggaranya layanan akademik yang berkualitas serta proses pembelajaran yang bermutu berdasarkan hasil-hasil penelitian ilmiah yang akurat dan mutakhir.<br> - Berkembangkannya IPTEKS yang berdasarkan Al-Quran dan Sunnah serta meningkatnya kompetensi akademik dan profesionalisme SDM melalui kegiatan penelitian yang unggul. <br> - Tersebarluasnya dan terimplementasikannya hasil-hasil penelitian untuk pengembangan dan pemberdayaan melalui kegiatan pengabdian kepada masyarakat. <br> - Siapnya UMMI menjadi pusat kajian dan pengembangan Al-Islam dan Kemuhammadiyahan secara bertahap dan sistematik. <br> - Meningkatnya kualitas SDM (Dosen dan tenaga Kependidikan), sarana dan prasaranadan kerjasama. <br> Sasaran: <br> - Meningkatkan mutu pembelajaran <br> - Meningkatkan sistem Penerimaan Mahasiswa Baru (PMB) <br> - Meningkatkan layanan di bidang kemahasiswaan. <br> - Meningkatkan mutu akademik dan kualitas layanan bagi alumni. <br> - Meningkatnya kompetensi dosen dan mahasiswa melalui kegiatan pembelajaran yang bersumber dari hasil-hasil penelitian. <br> - Meningkatnya hasil penelitian yang berbasis IPTEKS dan terintegrasi dengan Al-Islam dan Kemuhammadiyahan (AIK). <br> - Meningkatnya reputasi UMMI dalam penelitian <br> -Meningkatkan kuantitas dan kualitas artikel publikasi hasil penelitian <br> - Penataan dokumen induk penelitian. <br> - Meningkatkakan hasil pengembangan pendidikan dan penelitian yang dapat dimanfaatkan melalui pengabdian kepada masyarakat. <br> - Memiliki wilayah binaan sebagai model dalam pengembangan Ilmu. <br> - Meningkatnya Publikasi Hasil pengabdian dosen. <br> - Implementasi penguatan AIK bagi sivitas akademik di lingkungan UMMI. <br> - Meningkatkan kualitas dan kuantitas cabang dan ranting yang memiliki kemadirian dari aspek pengelolaan organisasi maupun aspek ekonomi. <br> - Meningkatkan jumlah SDM sesuai standar kecukupan <br> - Meningkatkan kompetensi SDM. <br> - Meningkatkan kesejahteraan SDM (Dosen dan Tenaga Kependidikan). <br> - Meningkatnya kedisiplinan SDM. <br> - Meningkatnya sumber dana nonmahasiswa. <br> - meningkatnya jumlah dan kualitas sarana dan prasarana. <br> - Meningkatnya aksesibilitas sistem informasi <br> - Penataan dokumen induk kerjasama. <br> - Terjalinnya kerjasama baik dengan berbagai stakeholder. "
+      ]
+    },
+    {
+      "tag": "Struktur Organisasi",
+      "patterns": [
+        "Struktur Organisasi? ",
+        "Boleh minta struktur organisasi?",
+        "Bagaimana struktur organisasi di ummi?",
+        "struktur organisasi kampus?"
+      ],
+      "responses": [
+        "Struktur Organisasi: <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668407922.jpg' width='100%'> <br> Struktur Organisasi di Universitas Muhammadiyah Sukabumi bisa diakses melalui <a href='https://ummi.ac.id/id/profil/struktur-organisasi'>Klik Disini </a>"
+      ]
+    },
+    {
+      "tag": "Pimpinan Universitas",
+      "patterns": [
+        "Siapa pimpinan Universitas Muhammadiyah Sukabumi?",
+        "Apa tugas Wakil Rektor?",
+        "Berapa jumlah wakil rektor di Universitas Muhammadiyah Sukabumi?",
+        "apa tugas rektor dan wakilnya?",
+        "Siapa rektor dan wakil rektor di Universitas Muhammadiyah Sukabumi?",
+        "Siapa pimpinan tertinggi ummi?"
+      ],
+      "responses": [
+        "<img src='https://ummi.ac.id/assets/uploads/tentang/1668411770.png' width='100%'> <br> Wakil Rektor I Bidang Akademik mempunyai tugas memimpin pelaksanaan pendidikan dan pengajaran, penelitian, pengabdian kepada masyarakat, serta membina pendidikan karakter berlandaskan al-Islam dan Kemuhammadiyahan di lingkungan Universitas. <br> Wakil Rektor II Bidang Administrasi Umum, Keuangan, dan SDM mempunyai tugas memimpin pelaksanaan kegiatan di bidang administrasi, sarana prasarana, keuangan, dan pengelolaan sumber daya manusia. <br> Wakil Rektor III Bidang Kemahasiswaan, Alumni, dan Kerja Sama mempunyai tugas memimpin pelaksanaan kegiatan di bidang pembinaan kemahasiswaan, pemberdayaan alumni, dan kerja sama. <br> Untuk informasi lebih lanjut bisa kunjungi link di bawah ini: <br> <a href='https://ummi.ac.id/id/profil/pimpinan-universitas'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Lokasi Kampus",
+      "patterns": [
+        "Di mana lokasi UMMI?",
+        "Kampus ummi terletak di?",
+        "Universitas Muhammadiyah Sukabumi ada di mana?",
+        "Alamat ummi?",
+        "Kampus 1 ummi ada di mana?",
+        "Lokasi Kampus"
+      ],
+      "responses": [
+        "<img src='https://ummi.ac.id/assets/uploads/tentang/1668131132.png' width='100%'> <br> Sukabumi nan sejuk dan nyaman <br> Kota Sukabumi terletak dikaki Gunung Pangrango dan Gunung Gede, daerah yang subur dan dikelilingi pemandangan yang indah dan menyejukkan. Letak Kota Sukabumi pada ketinggian 584 m dari permukaan laut, dan memiliki udara yang segar dan suasana yang menyenangkan. Suhu berkisar antara 150 C sampai dengan 300C. Curah hujan tertinggi terjadi pada bulan Desember dan terendah pada bulan Juli. Cuaca yang demikian itu sangat ideal untuk belajar dan didukung oleh masyarakatnya yang ramah dan murah senyum seperti umumnya masyarakat Sunda yang ramah tamah. Karena itu kiranya dapat difahami bilasejak tahun 1914 Pemerintah Hidia Belanda memilih kota ini sebagai tempat tinggal dan tempat berwisata, terutama orang-orang Eropa yang terbiasa dengan cuaca empat musim. <br> Kota ini seakan merupakan kota yang senantiasa dalam suasana musim semi sepanjang tahun. Letaknya yang dipusat wilayah Jawa Barat memudahkan komunikasi dan transportasi ke kota-kota besar seperti Jakarta, Bandung, Bogor dan berbagai kota lain yang terdapat di Jawa Barat. Kota Sukabumi juga terkenal sebagai pusat pendidikan Kepolisian Republik Indonesia, karena itu rasa aman dan terlindungi menjadi salah satu keungggulan Kota Sukabumi. Kaum muda di kota ini adalah kaum muda yang modis dan senantiasa mengikuti perkembangan budaya kontemporer, dan bahkan menjadi salah satu kota sumber seniman dan selebriti Indonesia. Belajar di Kota Sukabumi merupakan pilihan cerdas untuk memperoleh pengalaman belajar dan pengalaman hidup yang lengkap. <br> Kampus di pusat kota <br> Kampus UMMI sangat strategis letaknya, yaitu ditengah kota Sukabumi, hanya beberapa meter dari Balai Kota Sukabumi. Letak kampus sangat mudah dijangkau karena dilewati berbagai kendaraan umum dari semua jurusan. Bagi mahasiswa yang belajar di UMMI akses sangat terbuka ke semua pusat layanan dalam kota, baik ke pusat layanan pemerintahan, bisnis, fasilitas olahraga, rumah sakit, restoran maupun pusat jajanan rakyat. Supermaket dan mall semuanya dalam jangkauan jalan kaki dari kampus. Kampus UMMI juga di kelilingi oleh lembaga pendidikan lain mulai dari pendidikan dasar sampai dengan pendidikan menengah. Posisi yang strategis inilah yang menjadikan UMMI sebagai salah satu kampus pilihan di Sukabumi, disamping tentu saja masih banyak alasan lainnya, seperti : kualitas program studi yang ditawarkan, kualitas SDM yang dimiliki, kecukupan sarana prasarana akademik dan penunjang akademik yang memadai, banyaknya prestasi yang sudah diraih dan masih banyak lagi. <br> Alamat : <br> Jl. R. Syamsudin, SH. No. 50 Kota Sukabumi Jawa Barat Indonesia 43113 <br> Telp.(0266)218345/ Fax.(0266)218342 <br> Email sekretariat : info@ummi.ac.id <br> Lokasi: <br> <iframe src='https://www.google.com/maps/embed?pb=!4v1687661595459!6m8!1m7!1shZTm-F9ScR2Gl8GUuF8OuQ!2m2!1d-6.9184368493107!2d106.9342535064907!3f183.48!4f9.920000000000002!5f0.6301054449152372' width='100%' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>"
+      ]
+    },
+    {
+      "tag": "Fasilitas",
+      "patterns": [
+        "Apa saja fasilitas yang disediakan?",
+        "Sebutkan fasilitas yang ada?",
+        "fasilitas apa saja yang diberikan?",
+        "fasilitas yang ada di ummi",
+        "fasilitas yang ada di universitas Muhammadiyah Sukabumi"
+        
+      ],
+      "responses": [
+        "Berikut merupakaan fasilitas yang ada di Universitas Muhammadiyah Sukabumi:<br> <br><center>Ruang Perkuliahan  <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668131641.png' alt='fasilitas' width='100%'> <br> Masjid Al-UMM <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668131531.png' alt='masjid' width='100%'> <br> Perpustakaan UMMI <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668131686.png' alt='perpus' width='100%'> <br> Auditorium <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668131778.jpeg' width='100%'> <br> Gedung Laboratorium <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668132393.jpg' width='100%'> <br> Food Court <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668132261.png' width='100%'> <br> Sport Yard <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1668132086.jpg' width=100%> </center><br> Informasi terkait fasilitas yang ada di Universitas Muhammadiyah Sukabumi bisa diakses di <a href='https://ummi.ac.id/id/profil/fasilitas'>Sini</a>"
+      ]
+    },
+    {
+      "tag": "Lembaga UPT (Unit Pelaksana Teknis)",
+      "patterns": [
+        "Apa itu lembaga UPT?",
+        "Apa singkatan dari UPT?",
+        "Sebutkan lembaga UPT yang ada di UMMI?",
+        "lembaga upt yang ada di ummi?",
+        "lembaga yang ada di ummi"
+      ],
+      "responses": [
+        "Unit Pelaksana Teknis (UPT), adalah unit yang bertugas menyelenggarakan kegiatan tertentu untuk mendukung keberhasilan studi mahasiswa, terdiri atas: <br> - Lembaga Al Islam dan Kemuhammadiyahan <br> - Lembaga Penelitian dan Pengabdian Kepada Masyarakat <br> - Lembaga Penjamin Mutu <br> - SENAT <br> - UPT Kantor Urusan Internasional dan Language Center <br> - Dewan Penyantun <br> - Badan Pembina Harian <br> - UPT Humas dan PMB <br> - UPT Perpustakaan"
+      ]
+    },
+    {
+      "tag": "Lembaga Al-Islam Kemuhammadiyahan",
+      "patterns": [
+        "Apa itu Lembaga Al-Islam Kemuhammadiyahan?",
+        "Lembaga Al islam kemuhammadiyahan adalah?",
+        "Informasi terkait lembaga al islam kemuhammadiyahan",
+        "Apa saja tugas dari Lembaga al islam dan kemuhammadiyahan?",
+        "visi misi lembaga al islam dan kemuhammadiyahan"
+      ],
+      "responses": [
+        "Sejarah Singkat <br> Pusat Studi Al-Islam dan Kemuhammadiyahan (AIK) Universitas Muhammadiyah Sukabumi (UMMI) merupakan salah satu lembaga yang menangani masalah ke-Islaman dan ke-Muhammadiyahan sebagai identitas dari Perguruan Tinggi Muhammadiyah (PTM). Lembaga ini didirikan bertepatan dengan didirikannya UMMI. Pada awal didirikannya, lembaga ini hanyalah berbentuk sebuah tim yang mengelola Mata Kuliah Umum (MKU) Al-Islam dan Kemuhammadiyahan. Anggota dari Tim ini juga tersebar di beberapa tempat (tidak terpusat) dan dikepalai langsung oleh Alm. Barchoya Mansyur. <br> Pada tahun 2006 Tim AIK berganti kepengurusan dan dikepalai oleh Entis Sutisna, SL, M.Ag hingga tahun 2013. Lalu berdasarkan SK Rektor Nomor 179/KEP/1.0/A/2014 tentang pembentukan Pusat Studi Al-Islam dan Kemuhammadiyahan Universitas Muhammadiyah Sukabumi, Tim AIK berganti nama menjadi Pusat Studi Al-Islam dan Kemuhammadiyahan Universitas Muhammadiyah Sukabumi (AIK UMMI) hingga sekarang. <br> VISI <br> Terwujudnya kampus yang islami yang sesuai dengan Al-Qur’an dan Sunnah serta dapat diimplementasikan oleh seluruh Sivitas Akademik Universitas Muhammadiyah Sukabumi dalam kehidupan sehari-hari di masyarakat luas. <br> MISI <br> - Menyelenggarakan pendidikan AIK yang berkaitan dan relevan dengan kebutuhan masyarakat <br> - Melaksanakan pengkajian dan pendalaman Al-Islam dan Kemuhammadiyahan demi terwujudnya pemahaman terhadap Islam dan Kemuhammadiyahan secara baik dan benar <br> - Mengkondisikan pengalaman Al-Islam dalam pemahaman Muhammadiyah bagi seluruh sivitas akademika Universitas Muhammadiyah Sukabumi <br> - Mendorong kemajuan penelitian dan publikasi ilmiah di bidang AIK yang menopang pendidikan dan kemajuan AIK maupun kemampuan dan keterampilan dalam beragama. <br> - Meningkatkan penelitian dan pengabdian yang berorientasi pada kepentingan bangsa dan kesejahteraan masyarakat. <br> - Mengembangkan profesionalisasi yang menopang pendidikan dan kemajuan LIK UMMI sesuai dengan tuntutan zaman serta meningkatkan manajemen yang transparan dan berkualitas <br> - Menjalin kerjasama secara berkelanjutan dengan prodi-prodi dan unit-unit yang lain dilingkungan UMMI untuk menjadikan tim LIK lebih sinergis secara makro dilingkungannya. <br> - Menjalin kerjasama dengan PDM, PCM, dan PRM di wilayah Sukabumi <br> - Mensyi'arkan pemahaman Muhammadiyah terhadap Islam kepada masyarakat luas"
+      ]
+    },
+    {
+      "tag": "Badan Pembina Harian (BPH)",
+      "patterns": [
+        "Apa itu BPH?",
+        "BPH Singkatan dari?",
+        "Apa tugas BPH?",
+        "Badan Pembina Harian Adalah?",
+        "Tugas BPH ngapain aja?",
+        "visi misi BPH?"
+      ],
+      "responses": [
+        "Badan Pembina Harian <br> 1. Badan Pembina Harian Universitas adalah badan yang berfungsi dan betugas untuk melaksanakan fungsi dan tugas pimpinan pusat Muhammadiyah, dalam hal: <br> &nbsp;&nbsp; a. Menyediakan dana penyelenggaraan Universitas <br> &nbsp;&nbsp; b. Memberikan pertimbangan kepada Pimpinan Universitas dalam memimpin, menyelenggarakan dalam hal pengembangan Universitas <br> &nbsp;&nbsp; c. Mengangkat dan memberhentikan dosen tetap dan tenaga administratif tetap berdasarkan usul dan pertimbangan Pimpinan Universitas <br> &nbsp;&nbsp; d. Bersama pimpinan Universitas merumuskan statuta dan RIP Universitas <br> &nbsp;&nbsp; e. Badan Pelaksana Harian terdiri dari unsur : persyarikatan, dan tokoh-tokoh fungsional dalam masyarakat yang memahami kehidupan Universitas Muhammadiyah Sukabumi <br> 2. Anggota BPH terdiri dari unsur persyarikatan, dan tokoh-tokoh fungsional dalam masyarakat yang memahami kehidupan Universitas <br> 3. Susunan BPH terdiri atas seorang ketua merangkap anggota, seorang wakil ketua merangkap anggota, seorang sekretaris merangkap anggota, seorang bendahara merangkap anggota dan beberapa anggota <br> 4. Anggota BPH tidak dibenarkan merangkap sebagai pimpinan Universitas <br> 5. Masa jabatan keanggotaan BPH-Universitas selama 4 (empat) tahun dan dapat diangkat kembali dengan ketentuan sebanyak-banyaknya 2 (dua) kali masa jabatan berturut-turut <br> 6. BPH-Universitas di angkat dan diberhentikan oleh Pimpinan Pusat Muhammadiyah berdasarkan usul Rektor bersama pimpinan Wilayah Muhammadiyah Jawa Barat <br> 7. Keanggotaan BPH-Universitas berakhir karena : <br> &nbsp;&nbsp; a. Habis Masa Jabatan <br> &nbsp;&nbsp; b. Mengundurkan diri <br> &nbsp;&nbsp; c. Meninggal dunia <br> &nbsp;&nbsp; d. Diberhentikan oleh Pimpinan Pusat Muhammadiyah"
+      ]
+    },
+    {
+      "tag": "Dewan Penyantun",
+      "patterns": [
+        "Apa itu dewan penyantun?",
+        "dewan penyantun adalah?",
+        "tugas dewan penyantun ngapain aja?",
+        "apa tugas dari dewan penyantun?",
+        "Peranan dewan penyantun?",
+        "visi misi dewan penyantun"
+      ],
+      "responses": [
+        "Dewan Penyantun <br> 1. Dewan Penyantun UMMI adalah tokoh-tokoh masyarakat yang peduli terhadap UMMI terutama dari lingkungan Muhammadiyah <br> 2. Dewan Penyantun di lingkungan Universitas Muhammadiyah Sukabumi yang dimaksud dalam statuta ini adalah dari kalangan ilmuwan, pejabat pemerintah, pengusaha dan tokoh masyarakat lainnya <br> 3. Susunan pengurus Dewan Penyantun yang dimaksud terdiri dari seorang Ketua merangkap anggota, Wakil Ketua merangkap anggota, Sekretaris merangkap anggota dan beberapa anggota <br> 4. Kepengurusan dan keanggotaan Dewan Penyantun ditetapkan oleh BPH-UMMI atas usul Rektor setelah mendapat pertimbangan dari Senat Universitas. Masa kepengurusan Dewan Penyantun yang dimaksud dalam statuta ini adalah 4 (empat) tahun <br> <br> Tugas dan Fungsi Dewan Penyantun <br> 1. Membantu pimpinan UMMI dalam menciptakan dan memelihara hubungan baik antara UMMI dan instansi/lembaga baik pemerintah dan/atau swasta serta masyarakat pada umumnya <br> 2. Menyampaikan pemikiran dan sumbang saran kepada pimpinan UMMI dalam rangka pengembangan dan kemajuan UMMI <br> 3. Mendorong dan menumbuhkan suasana yang baik dan dinamis bagi upaya mewujudkan identitas UMMI, yakni pemuliaan dan pengembangan ilmu pengetahuan dan teknologi yang islami dalam rangka membangun bangsa"
+      ]
+    },
+    {
+      "tag": "Lembaga Penelitian dan Pengabdian Kepada Masyarakat",
+      "patterns": [
+        "apa itu lppm?",
+        "apa tugas dari LPPM?",
+        "LPPM Singkatan dari?",
+        "LPPM adalah?",
+        "Lembaga Penelitian dan Pengabdian Masyarakat adalah?",
+        "visi misi LPPM", "visi misi lembaga penelitian dan pengabdian masyarakat"
+      ],
+      "responses": [
+        "Lembaga Penelitian dan Pengabdian kepada Masyarakat (LPPM) <br> VISI: <br> Sebagai lembaga pengembangan ilmu pengetahuan dan tekhnologi yang bercirikan nilai-nilai keislaman, kultural dan misi persyarikatan pada tahun 2025. <br> MISI: <br> Menjadikan LPPM sebagai lembaga payung untuk aktifitas inovasi, invensi yang aplikatif dan solutifbagi permasalahan masyarakat di tingkat lokal, regional dan nasional. <br> Untuk informasi lebih lanjut bisa kunjungi WEBSITE :<br> <a href='https://lppm.ummi.ac.id'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Senat",
+      "patterns": [
+        "senat"
+      ],
+      "responses": [
+        "Informasi belum tersedia"
+      ]
+    },
+    {
+      "tag": "UPT Humas dan PMB",
+      "patterns": [
+        "PMB ummi ngapain aja?",
+        "apa tugas dari PMB",
+        "apa itu UPT Humas dan PMB",
+        "PMB ummi merupakan?",
+        "visi misi PMB", "visi misi upt humas dan pmb", "visi misi penerimaan mahasiswa baru"
+      ],
+      "responses": [
+        "UPT Humas dan PMB <br> VISI <br> Terwujudnya Citra Positif UMMI yang unggul dalam Keilmuan dan Keislaman di tahun 2022. <br> MISI <br> 1.Menyelenggarakan fungsi kehumasan universitas secara profesional yang berlandaskanAl-Islam dan Kemuhammadiyahan. <br> 2. Menyelenggarakan kerjasama dengan instansi pemerintah mapun swasta dalam kegiatan promosi universitas. <br> 3. Menyelenggarakan kerjasama dengan sekolah menengah atas dalam program"
+      ]
+    },
+    {
+      "tag": "UPT Kantor Urusan Internasional dan Language Center",
+      "patterns": [
+        "ILC adalah",
+        "apa itu ILC?",
+        "Apa visi dan misi ILC?"
+      ],
+      "responses": [
+        "UPT Kantor Urusan Internasional dan Language Center <br> VISI <br> Kantor Urusan Internasional dan Language Centre UMMI mendukung pancapaian dan misi Universitas yang unggul dalam keilmuan dan keislaman. <br> MISI <br> Mendukung dan melaksanakan kegiatan pendidikan dan pengajaran, penelitian, dan pengabdian kepada masyarakat pada dunia internasional. <br> 1. Membangun dan mengembangkan kerjasama Internasional.<br> 2. Memberikan pelayanan yang baik terhadap semua mahasiswa baik regional maupun internasional.<br> 3. Memberikan pelayanan bidang bahasa kepada seluruh civitas akademika UMMI dan masyarakat. <br> 4. Melaksanakan pelayanan Bahasa Indonesia untuk Penutur Asing"
+      ]
+    },
+    {
+      "tag": "UPT Perpustakaan",
+      "patterns": [
+        "Informasi tentang perpustakaan ummi?",
+        "visi misi dari perpustakaan ummi?",
+        "tugas dari perpustakaan ummi adalah?"
+      ],
+      "responses": [
+        "UPT Perpustakaan <br> VISI <br> Menjadikan Perpustakaan Unggulan Sebagai Pusat Pelayanan Informasi dan Sumber pengetahuan dalam Menunjang Catur Dharma UMMI tahun 2019. <br> MISI <br> 1. Meningkatkan Kualitas dan Fasilitas Layanan dalam Menunjang Catur Dharma UMMI. <br> 2. Meningkatkan Kualitas SDM Perpustakaan. <br> 3. Menjalin Kerjasama dengan Berbagai pihak"
+      ]
+    },
+    {
+      "tag": "SIAK",
+      "patterns": ["SIAK", "Sistem Informasi Akademik"],
+      "responses": [
+        "SIAK UMMI (Sistem Informasi Akademik dan Keuangan Universitas Muhammadiyah Sukabumi) adalah sistem yang mengelola berbagai macam data dan informasi mengenai penerimaan mahasiswa baru (PMB), pembayaran, perkuliahan, pindahan, pelepasan dan lain sebagainya. <br> Untuk Informasi seputar SIAK bisa diakses di <a href='https://siak.ummi.ac.id/ummi-public/'>Sini</a>"
+      ]
+    },
+    {
+      "tag": "E-Complent",
+      "patterns": ["E-Complent"],
+      "responses": [
+        "E-Complaint UMMI adalah fasilitas penyampaian keluhan dan saran maupun masukan secara online terhadap layanan di UMMI, baik dari kalangan internal (Mahasiswa, Staff, Dosen, dsb) maupun eksternal (Masyarakat sekitar, Tamu, dsb)., Keluhan akan kami tindak lanjuti kepada unit kerja terkait melalui pimpinan Universitas Muhammadiyah Sukabumi. Seluruh keluhan akan dikelola oleh Lembaga Penjaminan Mutu (LPM) UMMI. <br> E-Complent bisa diakses di <a href='https://e-complaint.ummi.ac.id/'>Sini</a>"
+      ]
+    },
+    {
+      "tag": "E-Learning",
+      "patterns": ["E-Learning"],
+      "responses": [
+        "<a href='http://elearning.ummi.ac.id/'>Link E-Learning UMMI</a>"
+      ]
+    },
+    {
+      "tag": "ICT Center",
+      "patterns": ["ICT Center"],
+      "responses": [
+        "ICT UMMI adalah Unit Pelaksana Teknis Sistem Informasi Manajemen (UPT SIM) di Universitas Muhammadiyah Sukabumi (UMMI). UPT SIM merupakan unit yang memberikan layanan infrastruktur teknologi informasi, layanan data dan sistem informasi serta layanan komputasi sebagai penunjang berjalanannya proses akademik di lingkungan Universitas Muhammadiyah Sukabumi <br> Web: <br> <a href='https://www.ict.ummi.ac.id/'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Helpdesk UMMI",
+      "patterns": ["helpdesk"],
+      "responses": [
+        "Helpdesk merupakan layanan bantuan online untuk sivitas akademika UMMI baik berupa dosen atau tenaga kependidikan lainnya. <br> Helpdesk bisa diakses melalui <br> <a href='http://helpdesk.ummi.ac.id/'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Kalender Akademik",
+      "patterns": [
+        "Boleh Minta kalender akademik?",
+        "apakah kamu punya kalender akademik?",
+        "boleh minta jadwal pembelajaran tahun ini?",
+        "jadwal pembelajaran"
+      ],
+      "responses": [
+        "Untuk kalender akademik bisa diakses di <br> <a href='https://ummi.ac.id/id/download/get/kalender-akademik-20232024.pdf'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Pedoman Administrasi Akademik",
+      "patterns": [ "Dimana saya bisa mendapatkan pedoman untuk administrasi akademik?", "Boleh minta panduan administrasi akademik?", "Boleh minta buku panduan?", "boleh minta pedoman administrasi akademik?"
+      ],
+      "responses": [
+        "Untuk informasi seputar administrasi akademik bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Pedoman Pembayaran",
+      "patterns": ["Bagaimana cara melakukan pembayaran", "cara melakukan pembayaran", "pedoman pembayaran untuk perkuliahan di UMMI", "bagaimana cara melakukan transaksi pembayaran di ummi?", "Bagaimana cara pembayaran perkuliahan menggunakan metode transfer bank di UMMI?", "pembayaran menggunakan transfer bank", "metode pembayaran yang tersedia", "Apakah UMMI menerima pembayaran menggunakan kartu kredit atau debit? "],
+      "responses": [
+        "Untuk Metode Pembayaran bisa menggunakan bank BCA, BNI, BSI, BRI, Mandiri,CIMB NIAGA, BJB, Muamalat, Dana. <br>  Informasi terakit pembayaran bisa diakses di <br> <a href='https://www.pmb.ummi.ac.id/page/tata-cara-pembayaran-pendaftaran-ummi'>Klik Disini</a>"
+      ]
+    },
+    {
+      "tag": "Berita",
+      "patterns": ["Berita yang ada di ummi", "Berita terbaru", "kegiatan kampus yang terjadi"],
+      "responses": [
+        "Ingin tau berita terbaru terkait UMMI? ayo kunjungi link dibawa ini ya <br> "
+      ]
+    },
+    {
+      "tag": "Agenda",
+      "patterns": ["Agenda", "kegiatan yang akan dilakukan", "kegiatan kampus yang akan terjadi"],
+      "responses": [
+        "Untuk mengetahui agenda UMMI bisa kunjungi link dibawah ini ya: <br> <a href='https://ummi.ac.id/id/agenda'>Klik Disini</a>"
+      ]
+    },{
+      "tag": "Perpindahan Program Studi atau Fakultas",
+      "patterns": ["Apakah bisa melakukan pindah program studi?","bagaimana cara melakukan pindah program program studi?","syarat yang diperlukan agar bisa pindah program studi", "bagaimana cara pindah fakultas?", "apakah bisa melakukan pindah program studi lintas fakultas?", "saya ingin pindah jurusan tapi beda fakultas bisa gk ya?", "saya ingin bertanya saya ingin ganti pilihan jurusan saya", "cara melakukan pindah prodi"
+        ], 
+        "responses": ["Perpindahan Program Studi dalam Lingkungan Fakultas <br> Mahasiswa Universitas Muhammadiyah Sukabumi yang ingin melakukan perpindahan program studi dalam lingkungan Fakultas sendiri dapat melakukan tahapan-tahapan yang telah ditentukan oleh bagian akademik. Adapun prosedur perpindahan program studi dalam lingkungan fakultas yang sama adalah sebagai berikut: <br> 1. Mahasiswa telah menempuh dua semester perkuliahan (satu tahun perkuliahan). <br> 2. Perpindahan hanya dapat dilakukan satu kali selama menjadi mahasiswa Universitas Muhammadiyah Sukabumi. <br> 3. Perpindahan program studi hanya diperkenankan untuk jenjang pendidikan yang sama. <br> 4. Mahasiswa yang akan mengajukan permohonan pindah program studi dalam lingkup fakultasnya (formulir dapat diunduh di sistem informasi akademik), dengan melampirkan: <br> &nbsp;&nbsp; a. Transkrip nilai sementara dari program studi asal. <br> &nbsp;&nbsp; b. Fotocopy KTM. <br> &nbsp;&nbsp; c. Melunasi SPP dan DPP di program studi asal <br> &nbsp;&nbsp; d. Nilai dari program studi asal dikonversikan sesuai dengan mata kuliah yang ada di program studi yang dituju. <br> 5. Administrasi fakultas berkoordinasi dengan Kabag. Akademik dan Kabag. Keuangan untuk mengubah status di SIAK dan mengubah data tagihan. <br> 6. Waktu pengajuan permohonan pindah: <br> &nbsp;&nbsp; a. Waktu pindah kelas dilakukan pada awal semester (semester gasal). <br> &nbsp;&nbsp; b. Waktu pengajuan permohonan pindah kelas selambat-lambatnya 1 minggu sebelum awal tahun dimulai sesuai kalender akademik. <br> 7. Permohonan yang melewati batas waktu yang telah ditentukan tidak akan dilayani. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "Pindah reguler ke non-reguler",
+      "patterns":["Apakah bisa melakukan perpindahan kelas dan reguler ke non reguler?","Saya dari kelas reguler ingin pindah ke non reguler apakah bisa?", "Cara pindah dari reguler ke non reguler"],
+      "responses":["Perpindahan dari Kelas Reguler ke Non Reguler <br> Mahasiswa Universitas Muhammadiyah Sukabumi yang bermaksud melakukan pindah dari kelas reguler ke non reguler atau sebaliknya dari non regular ke reguler pada program studi yang sama di lingkungan UMMI, dengan ketentuan berikut: <br> 1. Telah mengikuti kegiatan akademik secara terus menerus dengan masa studi sekurang-kurangnya 2 semester. <br> 2. Tidak melanggar tata tertib kehidupan kampus atau sebab lain yang sejenis. <br> 3. Masih tercatat sebagai mahasiswa aktif pada tahun akademik yang bersangkutan. <br> 4. Kesempatan pindah kelas hanya diberikan 1 (satu) kali. <br> 5. Telah melunasi semua administrasi keuangan di kelas asal. <br> 6. Ketika status menjadi kelas non reguler/reguler maka SPP dan DPP menyesuaikan ketentuan kelas tersebut.<br> <br> Adapun prosedur perpindahaan mahasiswa sebagai berikut: <br> 1. Mengajukan permohonan dengan mengisi formulir yang ditujukan kepada dekan (formulir dapat di unduh di sistem informasi akademik).  <br> 2. Permohonan disampaikan melalui Bagian Administrasi Akademik (BAA) Fakultas dengan melampirkan: <br> &nbsp;&nbsp; a. Transkrip nilai sementara. <br> &nbsp;&nbsp; b. Fotokopi kartu mahasiswa yang masih berlaku. <br> &nbsp;&nbsp; c. Surat pernyataan/bukti dari bagian keuangan fakultas/Ka. Bag. Keuangan lembaga bahwa yang bersangkutan telah melunasi semua administrasi keuangan di kelas reguler. <br> &nbsp;&nbsp; d. Melampirkan surat keterangan kerja dari instansi tempat yang bersangkutan bekerja (untuk perpindahan dari regular ke non regular). <br> 3. Bagian Administrasi Akademik (BAA) menyerahkan laporan mahasiswa pindahan ke bagian Pelaporan Feeder Dikti melalui Kabag. Akademik dan tembusan kepada program studi dan Bagian Keuangan Lembaga. <br> 4. Kabag. Akademik berkoordinasi dengan administrasi fakultas untuk mengubah status di SIAK dan mengubah data tagihan. <br> 5. Waktu pengajuan permohonan pindah <br> &nbsp;&nbsp; a. Waktu pindah kelas dilakukan pada awal semester (semester gasal dan genap) <br> &nbsp;&nbsp; b. Waktu pengajuan permohonan pindah kelas selambat-lambatnya 1 minggu sebelum awal semester dimulai (masa kontrak kuliah) sesuai kalender akademik. <br> &nbsp;&nbsp; c. Permohonan yang melewati batas waktu yang telah ditentukan tidak akan dilayani. <br> Perpindahan Program Studi Lintas Fakultas di Lingkungan UMMI Mahasiswa UMMI yang akan melakukan perpindahan program studi lintas fakultas di lingkungan UMMI harus mengikuti ketentuan yang telah ditetapkan oleh bagian akademik. Adapun prosedur yang dimaksud sebagai berikut: <br> 1. Perpindahan dilakukan pada awal semester (semester gasal). <br> 2. Mahasiswa telah menempuh dua semester perkuliahan (satu tahun perkuliahan). <br> 3. Perpindahan program studi hanya diperkenankan untuk jenjang pendidikan yang sama. <br> 4. Perpindahan hanya dapat dilakukan satu kali selama menjadi mahasiswa Universitas Muhammadiyah Sukabumi. <br> 5. Mahasiswa yang akan mengajukan permohonan pindah program studi lintas fakultasnya menyerahkan formulir permohonan pindah Program Studi lintas Fakultas (formulir dapat di unduh pada SIAK) dengan melampirkan dokumen berikut: <br> &nbsp;&nbsp; a. Transkrip nilai sementara dari program studi asal (di cap dan ditandatangani). <br> &nbsp;&nbsp; b. Fotocopy KTM. <br> &nbsp;&nbsp; c. Melunasi SPP dan DPP di program studi asal. <br> &nbsp;&nbsp; d. Nilai dari program studi asal dikonversikan sesuai dengan mata kuliah yang ada di program studi yang dituju. <br> 6. Berkenaan dengan perubahan mata kuliah dari program studi awal dengan program studi yang baru, maka akan terjadi penambahan masa studi. <br>  7. Administrasi fakultas berkoordinasi dengan Kabag. Akademik dan Kabag. Keuangan untuk mengubah status di SIAK dan mengubah data tagihan. <br> 8. Waktu pengajuan permohonan pindah <br> &nbsp;&nbsp; a. Waktu pindah kelas dilakukan pada awal tahun akademik (semester gasal). <br> &nbsp;&nbsp; b. Waktu pengajuan permohonan pindah kelas selambat-lambatnya 2 minggu sebelum awal tahun dimulai sesuai kalender akademik. <br> 9. Permohonan yang melewati batas waktu yang telah ditentukan tidak akan dilayani <br> <br> Pindah Studi dari UMMI ke Kampus lain <br> Perpindahan studi dari UMMI berlaku ketentuan sebagai berikut: <br> 1. Perpindahan dilakukan pada semester gasal/genap. <br> 2. Mahasiswa telah menempuh minimal dua semester perkuliahan (satu tahun perkuliahan). <br> 3. Mengajukan permohonan pindah studi dari mahasiswa bersangkutan kepada dekan yang disetujui oleh Orang Tua/Wali, diketahui oleh Dosen Wali/ DPA dan Pimpinan Program Studi <br> 4. Surat keterangan pindah studi mahasiswa diterbitkan oleh Pimpinan Universitas (Rektor) yang diajukan oleh Fakultas dan ditembuskan kepada kepala bagian Akademik Universitas dan operator PDDikti. <br> 5. Mahasiswa yang akan mengajukan permohonan pindah studi wajib melampirkan: <br> &nbsp;&nbsp; a. Transkrip nilai. <br> &nbsp;&nbsp; b. KTM yang masih berlaku. <br> &nbsp;&nbsp; c. Surat Keterangan bebas perpustakaan UMMI. <br> &nbsp;&nbsp; d. Surat Keterangan Bebas Tunggakan <br> <br> untuk informasi lebih lanjut mengenai perpindahan bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    },{
+      "tag": "pindah kampus",
+      "patterns": ["Saya ingin pindah kampus gmna caranya?", "tahapan pindah kampus?", "apakah pindah kampus memungkinkan? apa saja yang diperlukan", "Syarat apa saja yang diperlukan agar bisa pindah kampus?", "pindah kampus", "saya ingin pindah dari ummi gmna caranya?", "pindah dari ummi"], 
+      "responses":["Perpindahan studi dari UMMI berlaku ketentuan sebagai berikut: <br> 1. Perpindahan dilakukan pada semester gasal/genap. <br> 2. Mahasiswa telah menempuh minimal dua semester perkuliahan (satu tahun perkuliahan). <br> 3. Mengajukan permohonan pindah studi dari mahasiswa bersangkutan kepada dekan yang disetujui oleh Orang Tua/Wali, diketahui oleh Dosen Wali/ DPA dan Pimpinan Program Studi <br> 4. Surat keterangan pindah studi mahasiswa diterbitkan oleh Pimpinan Universitas (Rektor) yang diajukan oleh Fakultas dan ditembuskan kepada kepala bagian Akademik Universitas dan operator PDDikti. <br> 5. Mahasiswa yang akan mengajukan permohonan pindah studi wajib melampirkan: a. Transkrip nilai. <br> b. KTM yang masih berlaku. <br> c. Surat Keterangan bebas perpustakaan UMMI. <br> d. Surat Keterangan Bebas Tunggakan <br> <br> untuk informasi lebih lanjut bisa didownload melalui  <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+
+    }, {
+      "tag": "Pengunduran Diri",
+      "patterns": ["Bagaimana cara melakukan pengunduran diri dari kampus?", "cara melakukan pengunduran diri?", "saya ingin mengundurkan diri, bagaimana caranya?", "tahapan pengunduran diri"], 
+      "responses": ["Pengunduran Diri Mahasiswa <br> Pengunduran diri mahasiswa dari UMMI berlaku ketentuan sebagai berikut: <br> 1. Pengunduran diri dilakukan pada semester gasal/genap. <br> 2. Mengajukan surat permohonan pernyataan pengunduran diri/ berhenti kuliah dari mahasiswa bersangkutan yang disetujui oleh Orang Tua/Wali, diketahui oleh Program Studi. <br> 3. Surat keterangan pengunduran diri atas nama mahasiswa diterbitkan oleh Pimpinan Fakultas (Dekan/Wakil Dekan) dan ditembuskan kepada kepala bagian Akademik Universitas dan operator PDDikti. <br> 4. Mahasiswa mengajukan surat pernyataan pengunduran diri yang ditandatangani dengan materai (10.000) dan wajib melampirkan: <br> &nbsp;&nbsp; a. Transkrip nilai/Kartu Hasil Studi <br> &nbsp;&nbsp; b. KTM yang masih berlaku. <br> &nbsp;&nbsp; c. Surat Keterangan bebas perpustakaan UMMI. <br> &nbsp;&nbsp; d. Surat Keterangan Bebas Tunggakan <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "KRS", 
+      "patterns": ["Bagaimana cara melakukan pengisian KRS?", "KRS adalah?", "apa itu Kartu Rencana Studi?", "Syarat pengambilan KRS?", "Prosedur pengisisan KRS"], 
+      "responses": ["Pengisian Kartu Rencana Studi (KRS) <br> Pada saat memasuki semester baru, setiap mahasiswa diharuskan untuk menetapkan program belajar untuk semester berjalan. Program belajar semester ini harus didaftarkan agar mahasiswa yang  bersangkutan diijinkan mengikuti kegiatan pembelajaran, antara lain kuliah tatap muka, kuliah tatap maya, praktikum, bimbingan skripsi, KKN, dan sebagainya. Semua program kegiatan belajar mahasiswa dituangkan dalam Kartu Rencana Studi (KRS). Jadi KRS adalah lembaran yang berisi daftar Mata Kuliah yang akan diikuti oleh setiap Mahasiswa dalam satu semester yang mana KRS ini menjadi <br> landasan untuk tercantumnya nama mahasiswa pada presensi perkuliahan dan daftar pengisian Nilai. <br> 1) Syarat Pengambilan KRS <br> &nbsp;&nbsp; a. Mahasiswa harus berstatus Aktif. <br> &nbsp;&nbsp; b. Mahasiswa telah melakukan pembayaran registrasi/spp semester berjalan kepada bank yang telah ditunjuk oleh UMMI. <br> &nbsp;&nbsp; c. Telah berkonsultasi dengan Dosen Pembimbing Akademik (DPA) mengenai daftar mata kuliah yang akan diambil. <br> &nbsp;&nbsp; d. Waktu pengisian KRS disesuaikan dengan kalender akademik. <br> 2) Prosedur Pengisian KRS <br> &nbsp;&nbsp; a. Mahasiswa melakukan registrasi awal semester berjalan untuk mengaktifkan akun SIAK (mahasiswa telah memenuhi syarat administrasi akademik dan keuangan) <br> &nbsp;&nbsp; b. Mahasiswa mengisi KRS online di SIAK UMMI setelah berkonsultasi dengan DPA mengenai mata kuliah dan beban SKS yang harus diambil dan disetujui oleh DPA. <br> &nbsp;&nbsp; c. KRS yang telah disetujui DPA, dapat dicetak untuk validasi dan digunakan untuk keperluan syarat administrasi akademik.  <br> &nbsp;&nbsp; d. Perubahan KRS dilakukan atas persetujuan DPA dan hanya dapat dilakukan pada masa pengisian KRS sesuai kalender akademik. <br> &nbsp;&nbsp; e. Perubahan pengisian KRS dapat dilakukan oleh Dosen Pembimbing Akademik pada SIAK dengan melakukan bimbingan ulang dengan mahasiswa <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik disini</a>"]
+    },{
+      "tag": "Penugasan Dosen", 
+      "patterns": ["Apa itu Penugasan Dosen?", "Penugasan Dosen adalah?", "Apakah dosen sering memberikan tugas?", "bagaimana alur penugasan dosen"],
+      "responses": ["Penugasan dosen adalah salah satu kegiatan rutin setiap awal semester yang dilakukan oleh program studi dengan waktu yang telah ditentukan (sesuai kalender akademik) untuk menetapkan dosen yang akan mengampu mata kuliah pada kurikulum yang berlaku pada program studi tertentu. Penugasan dosen disampaikan oleh program studi kepada Fakultas untuk selanjutnya dibuatkan SK mengajar oleh bagian Administrasi Fakultas.Alur penugasan dosen tidak tetap diajukan oleh program studi nama-nama calon dosen tidak tetap kepada dekan fakultas yang kemudian ditujukan kepada biro kepegawaian untuk dibuatkan surat tugas mengajar yang nantinya akan dikoordinasikan/ditembuskan kepada administrasi fakultas untuk pembuatan akun di SIAK yang terintegrasi dengan learning management system (LMS) UMMI untuk keperluan kegiatan pembelajaran daring serta dikoordinasikan/ditembuskan kepada administrasi keuangan untuk pencatatan honor.Ketentuan Pengisian daftar penugasan perkuliahan dosen adalah sebagai berikut: <br> 1. Nama dosen pengampu mata kuliah dapat diambil dari dalam dan/atau luar program studinya sesuai dengan kebutuhan dan sesuai dengan peraturan akademik serta peraturan kepegawaian. <br> 2. Jumlah mahasiswa diisi sesuai dengan jumlah yang mengambil KRS pada mata kuliah tersebut. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "Kehadiran", 
+      "patterns": ["alur kehadiran", "Presensi Mahasiswa adalah", "Bagaimana sistem kehadiran di ummi?", "Daftar hadir mahasiswa"], 
+      "responses": ["Daftar hadir mahasiswa adalah daftar untuk mengetahui kehadiran mahasiswa pada saat mengikuti perkuliahan baik teori maupun praktik, sehingga daftar ini dapat dijadikan salah satu komponen penilaian dosen kepada mahasiswa. Daftar hadir mahasiswa ini dibuat sesuai dengan jumlah mahasiswa yang telah melaksanakan pembayaran registrasi dan mengisi KRS online. Bagi mahasiswa yang tidak melakukan KRS online maka nama mahasiswa tersebut tidak akan terdaftar pada daftar hadir mata kuliah tersebut.Daftar hadir mahasiswa diisi pada laman LMS oleh setiap mahasiswa pada masing-masing akun LMS mahasiswa dengan waktu yang telah ditentukan oleh dosen pengampu mata kuliah yang bersangkutan. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "Dispensasi",
+      "patterns":["Bagaimana cara membuat surat dispensasi perkuliahan?", "cara membuat surat izin?", "cara dispensasi", "cara izin tidak mengikuti perkuliahan", "apa itu dispensasi?"], 
+      "responses": ["Dispensasi merupakan pemberian izin tidak mengikuti perkuliahan bagi mahasiswa dikarenakan mahasiswa yang bersangkutan sedang mengikuti kegiatan perlombaan atau kegiatan lain yang berhubungan dengan kepentingan kampus. Mahasiswa yang telah diberikan izin dispensasi tidak berpengaruh terhadap jumlah kehadiran namun untuk mengganti perkuliahan, mahasiswa dapatberkonsultasi dengan dosen yang bersangkutan. Berikut merupakan langkah pengajuan pembuatan surat dispensasi. <br> a. Mahasiswa mengajukan dispensasi melalui akun siak pada menu perkuliahan/pengajuan Dispensasi. <br> b. Mahasiswa mengisi data yang diminta pada akun siak disertai mengunggah surat tugas/surat izin mengikuti kegiatan/lomba yang dimaksud. <br> c. Staf administrasi akademik fakultas memvalidasi pengajuan surat dispensasi. <br> d. Mahasiswa dapat mengunduh surat dispensasi melalui akun siaknya masing-masing. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href=' https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "SKAK", 
+      "patterns": ["Bagaimana cara membuat SKAK?", "Cara membuat surat keterangan Aktif kuliah", "APa itu SKAK?", "Apa itu surat keterangan aktif kuliah?"],
+      "responses": ["Surat keterangan aktif kuliah dapat digunakan oleh mahasiswa untuk beberapa keperluan antara lain sebagai berikut: <br> a. Keperluan Administrasi Kepegawaian orang tua mahasiswa yang bersangkutan; <br> b. Keperluan Administrasi tempat kerja Mahasiswa; <br> c. Data pada Jaminan Kesehatan Mahasiswa, dll. <br> <br> Setiap mahasiswa dapat mengajukan surat keterangan aktif kuliah melalui akun SIAK masing-masing pada menu Perkuliahan/Pengajuan SKAK dengan persyaratan sudah melakukan pengisian KRS pada semester berjalan. <br> Validitas pada SKAK yang telah disetujui pada akun Mahasiswa tidak perlu di tandatangani dan di cap oleh pejabat yang tertera pada SKAK, karena sudah dilengkapi dengan barcode yang telah ditentukan oleh UMMI legalitasnya dan bisa di cek langsung oleh user melalui aplikasi scanner. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'></a>"]
+    }, {
+      "tag": "Cuti", 
+      "patterns": ["cara membuat surat cuti", "cara melakukan cuti", "syarat melakukan cuti", "cuti akademik", "cara penghentian studi sementara"],
+      "responses": ["Mahasiswa yang ingin menghentikan studi untuk sementara waktu (cuti akademik) karena halangan yang tidak dapat dihindari, harus memenuhi ketentuan-ketentuan sebagai berikut : <br> a. Cuti kuliah dapat dilakukan jika mahasiswa yang bersangkutan telah menempuh perkuliahan minimal dua semester (1 tahun), apabila mahasiswa yang belum menempuh perkuliahan selama dua semester (1 tahun) dan tidak melakukan registrasi dan pengisian KRS, maka mahasiswa tersebut dianggap aktif dan status pembayaran masih ditagihkan, namun nilai dianggap tidak lulus sehingga diharuskan mengontrak kembali di semester yang akan datang. <br> b. Tidak memiliki tunggakan SPP semester sebelumnya dan DPP ataupun administrasi keuangan lainnya. <br> Ketentuan untuk jenjang sebagai berikut: <br> a. Program Diploma 3 <br> &nbsp;&nbsp; - Mendapat ijin tertulis dari Dekan dan ditembuskan ke Wakil Rektor I dan II. <br> &nbsp;&nbsp; - Sudah menempuh paling sedikit 40 SKS dan IPK sama atau ≥ dari 2,00. <br> &nbsp;&nbsp; - Cuti dapat diambil selama studi, maksimal 2 semester, apabila lebih dari 2 semester status mahasiswa menjadi non aktif. <br> b. Program Sarjana <br> &nbsp;&nbsp; - Mendapat ijin tertulis dari Dekan dan ditembuskan ke Wakil Rektor I dan II. <br> &nbsp;&nbsp; - Sudah menempuh paling sedikit 40 SKS dan IPK ≥ 2,00. <br> &nbsp;&nbsp; - Cuti dapat diambil selama studi, maksimal 2 semester, apabila lebih dari 2 semester status mahasiswa menjadi non aktif. <br> c. Pascasarjana <br> - Mendapat izin tertulis dari ketua program studi dan ditembuskan ke bagian akademik fakultas <br> &nbsp;&nbsp; - Sudah menempuh paling sedikit 33 SKS dan IPK ≥ 2,50. <br> &nbsp;&nbsp; - Cuti dapat diambil selama studi, maksimal 2 semester, apabila lebih dari 2 semester status mahasiswa menjadi non aktif.Masa penghentian studi sementara tidak diperhitungkan dengan lama studi mahasiswa yang bersangkutan. Tata cara pengajuan permohonan penghentian studi sementara, adalah sebagai berikut: <br> 1. Mahasiswa mengajukan permohonan secara tertulis kepada Dekan melalui ketua program studi, dan mengisi formulir cuti yang disediakan oleh BAA. <br> 2. Surat permohonan harus disetujui oleh ketua program studi, dengan melampirkan : <br> 1. Transkrip Akademik <br> 2. Bukti Bebas Tunggakan <br> 3. Bukti pembayaran cuti (heregistrasi) <br> 4. Fotocopy Kartu Mahasiswa yang masih berlaku <br> 3. Permohonan diajukan selambat-lambatnya 1 (satu) minggu sebelum perkuliahan dimulai. <br> 4. Permohonan yang melewati batas waktu tersebut tidak akan disetujui dan tidak akan diproses <br> 5. Surat cuti harus ditembuskan kepada Program Studi, Bagian Akademik, Bagian Keuangan dan operator PDDikti. <br> 6. Jika proses permohonan cuti dilakukan maka biaya SPP tidak dibebankan, tetapi jika tidak diproses maka biaya SPP dibebankan pada semester berjalan.<br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag": "Aktif kuliah kembali", 
+      "patterns": ["bagaimana cara membuat surat aktif kuliah?", "bagaimana jika saya ingin kembali aktif kuliah?", "cara membuat keterangan aktif kuliah", "cara kembali kuliah"], 
+      "responses": ["Mahasiswa yang mengambil cuti akademik dapat aktif kuliah kembali dengan persyaratan sebagai berikut: <br> 1. Mahasiswa mengajukan surat permohonan aktif kuliah kembali kepada ketua program studi dengan melampirkan surat keterangan cuti akademik, yang selanjutnya ditembuskan kepada dekan. <br> 2. Rekomendasi dari ketua program studi dengan lampiran surat keterangan cuti akademik diserahkan ke BAA fakultas agar diproses untuk kemudian ditembuskan ke bagian akademik, bagian keuangan dan operator PDDikti <br> 3. BAA Fakultas mengubah status mahasiswa di SIAK menjadi Aktif <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'> Klik Disini</a>"]
+    }, {
+      "tag": "verifikasi ijazah",
+      "patterns": ["cara membuat surat verifikasi ijazah", "surat verifikasi ijazah"], 
+      "responses": ["Surat Keterangan Verifikasi Ijazah biasanya diperlukan oleh lulusan untuk memenuhi persyaratan administrasi akademik lulusan tersebut untuk menerangkan bahwa lulusan tersebut adalah benar lulusan dari Universitas Muhammadiyah Sukabumi, surat keterangan ini dapat diterbitkan oleh Rektor. Berikut adalah langkah/prosedur yang harus ditempuh oleh mahasiswa: <br> a. Alumni mengajukan permohonan surat keterangan verifikasi ijazah dengan melampirkan fotokopi ijazah dan screenshoot pada Pangkalan Data Pendidikan Tinggi (PDDikti) ke BAA Fakultas. <br> b. BAA Fakultas mengajukan surat permohonan pembuatan surat keterangan verifikasi ijazah kepada Rektor dengan melampirkan arsip dokumen yang dimaksud; <br> c. Staf rektorat membuat surat keterangan verifikasi ijazah yang ditandatangani Rektor dan di cap Universitas serta mengarsipkannya. <br> d. Dokumen yang telah terbit diberikan kepada BAA Fakultas dan ditembuskan kepada bagian akademik Universitas. <br> e. Alumni dapat mengambil surat keterangan verifikasi iIjazah di BAA Fakultas. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Klik Disini</a>"]
+    }, {
+      "tag":"SKL", 
+      "patterns": ["cara membuat surat keterangan lulus", "cara membuat SKL", "SKL digunakan untuk apa?", "kegunaan surat keterangan lulus"], 
+      "responses": ["Surat Keterangan Lulus adalah surat yang diterbitkan oleh Fakultas untuk menerangkan bahwa Mahasiswa tersebut telah menyelesaikan segala beban akademik dan telah dinyatakan lulus namun ijazah yang bersangkutan masih dalam proses penerbitan. Adapun Prosedur yang harus dilakukan yaitu: <br> a. Mahasiswa mengajukan permohonan surat keterangan lulus dengan melampirkan bukti yudisium dari program studi dan pasfoto ukuran 4x6 cm 1 lembar berwarna (berlatar merah dan memakai jas almamater) ke BAA Fakultas. <br> b. BAA Fakultas melakukan pengecekan terhadap administrasi kelulusan Mahasiswa tersebut <br> dan memproses permohonan surat keterangan lulus mahasiswa. <br> c. Mahasiswa dapat mengambil surat keterangan lulus di BAA Fakultas. <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'></a>"]
+    }, 
+    {
+      "tag": "pengganti ijazah", 
+      "patterns": ["cara membuat surat keterangan pengganti ijazah", "surat pengganti ijazah", "apa yang harus dilakukan jika ijazah hilang, rusak, ataupun adanya kesalahan kompetensi"],
+      "responses": ["Surat Keterangan Pengganti Ijazah adalah surat yang diterbitkan apabila telah terjadi kerusakan, kehilangan atau kesalahan penulisan terhadap dokumen Ijazah, Transkrip Nilai, SKPI, Sertifikat Kompetensi dan Sertifikat Profesi Mahasiswa. Karena dokumen tersebut tidak dapat dicetak dua kali, maka Surat Keterangan Pengganti Ijazah adalah dokumen resmi yang dianggap sama nilainya dengan dokumen tersebut.Berikut adalah hal yang harus tertera pada surat keterangan Pengganti Ijazah: <br> 1. Data Pimpinan Universitas; <br> 2. Data Mahasiswa yang bersangkutan; <br> 3. Pas Foto 3x4 cm berwarna Mahasiswa yang bersangkutan; <br> 4. Tanggal penerbitan surat keterangan; <br> 5. Tandatangan rektor bermaterai disertai cap universitas; <br> 6. Dilampirkan fotocopy arsip dokumen yang dimaksud. <br> Berikut adalah langkah/prosedur yang harus ditempuh oleh mahasiswa: <br> 1. Mahasiswa memberikan surat keterangan dari kepolisian tentang kehilangan, kerusakan dokumen Ijazah, Transkrip Nilai, SKPI, Sertifikat Kompetensi dan Sertifikat Profesi serta menyerahkan pas foto dan juga materai Rp 10.000,- kepada administrasi Fakultas; <br> 2. Administrasi Fakultas mengajukan surat permohonan pembuatan Surat Keterangan Pengganti Ijazah kepada rektor dengan melampirkan arsip dokumen yang dimaksud; <br> 3. Staf rektorat membuat Surat Keterangan Pengganti Ijazah yang ditandatangani rektor dan di cap Universitas serta mengarsipkannya. <br> 4. Dokumen yang telah terbit diberikan kepada administrasi Fakultas dan ditembuskan kepada Fakultas dan bagian akademik Universitas. <br> 5. Mahasiswa dapat mengambil Surat Keterangan Pengganti Ijazah di bagian administrasi Fakultas <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'> Klik Disini</a>"]
+    }, {
+      "tag": "mbkm",
+      "patterns": ["apa itu mbkm?", "apa itu kampus merdeka?", "apa itu kegiatan merdeka belajar kampus merdeka", "apa saja persyaratan untuk mengikuti mbkm", "saya masih semester 1/3 apakah bisa mengikuti mbkm", "cara daftar kampus merdeka", "bagaimana cara mendaftar mbkm"],
+      "responses": ["<b>Kampus Merdeka</b> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682847372.png' width='100%'> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682847478.png' width='100%'> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682847899.png' width='100%'> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682848002.png' width='100%'> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682848207.png' width='100%'> <br> <img src='https://ummi.ac.id/assets/uploads/tentang/1682848107.png' width=100%> <br> <br> Merdeka Belajar Kampus Merdeka (MBKM) merupakan program hak belajar tiga semester di luar program studi. Program Merdeka Belajar terbagi dua yaitu program nasional yang telah disiapkan oleh Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi dan sudah terdaftar di Pangkalan Data Pendidikan Tinggi (PDDikti) maupun program mandiri yang disiapkan oleh perguruan tinggi yang akan didaftarkan pada laman PDDikti. <br> A. MBKM Program Kementerian <br> 1. Universitas <br> a. Menyebarluaskan informasi peluang sebagai Koordinator Universitas dan Koordinator BKPyang dibuka oleh Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek). <br> b. Menyebarluaskan informasi peluang sebagai Dosen Pengampu Mata Kuliah Kampus Mitra khusus untuk Bentuk Kegiatan Pembelajaran (BKP) Pertukaran Mahasiswa Merdeka (PMM) <br> c. Menyebarluaskan informasi peluang sebagai Dosen Modul Nusantara khusus untuk BKP PMMd. Selama pandemi covid-19 menyiapkan izin kegiatan luring ke satgas covid-19 ditembuskan ke Walikota, Bupati, Kapolres Kota dan Kabupaten Sukabumi untuk kegiatan luring khusus BKP PMM Inbound. <br> 2. Dosen <br> Persyaratan sebagai Koordinator Universitas maupun Koordinator BKP: <br> a. Mendaftar sebagai Koordinator Universitas/Koordinator Bentuk Kegiatan Pembelajaran <br> b. Surat Rekomendasi Universitas <br> c. Surat Tugas untuk Dosen yang lolos seleksi <br> Persyaratan sebagai Dosen Pengampu Mata Kuliah Kampus Mitra dan Dosen Modul Nusantara khusus BKP Pertukaran Mahasiswa Merdeka: <br> a. Mendaftar sebagai Dosen Pengampu Mata Kuliah Kampus Mitra dan Dosen Modul Nusantara dengan Surat Rekomendasi dari Universitas <br> b. Koordinator Universitas akan menyeleksi dosen yang mendaftar sebagai Dosen Pengampu Mata Kuliah Kampus Mitra maupun Dosen Modul Nusantara dan setelah lolos akan diberikan surat tugas <br> 3. Mahasiswa <br> Prosedur Mahasiswa dalam kegiatan MBKM-Kementerian sebagai berikut: <br> a. Kegiatan MBKM diawali dengan mahasiswa melakukan pendaftaran akun melalui <a href='www.kampusmerdeka.kemdikbud.go.id'>web</a> dan memilih skema BKP yang dibuka oleh Kemdikbudristek dengan bimbingan dari Dosen Pembimbing Akademik.<br> b. Kegiatan MBKM khusus PMM mahasiswa melakukan pendaftaran akun melalui web www.program-pmm.id dengan bimbingan dari Dosen Pembimbing Akademik. <br> c. Mahasiswa mendaftar di siak dan memilih skema BKP MBKM yang telah di daftarkan di kampus merdeka untuk data internal dan konversi nilai dari kampus merdeka. <br> d. Mahasiswa harus melengkapi persyaratan untuk mendaftar di siak dan akun kampus merdeka: <br> &nbsp;&nbsp; a. Curriculum Vitae <br> &nbsp;&nbsp; b. Transkrip nilai terakhir <br> &nbsp;&nbsp; c. Surat rekomendasi mengikuti kegiatan MBKM minimal tingkat fakultas <br> &nbsp;&nbsp; d. Surat izin orang tua/ wali <br> &nbsp;&nbsp; e. Surat keterangan sehat <br> &nbsp;&nbsp; f. Pengalaman organisasi (optional) <br> &nbsp;&nbsp; g. Sertifikat prestasi nasional (optional untuk ipk diatas 2,75 ; wajib untuk ipk ibawah 2,75). <br> Semua persyaratan tersebut di unggah di siak dan di web kampus merdeka. <br> e. Mahasiswa menunggu keputusan lolos/tidak lolos yang akan di umumkan di web kampus merdeka. <br> f. Mahasiswa lolos dibuatkan surat tugas mengikuti MBKM oleh Universitas. <br> g. Mahasiswa lolos dibuatkan surat keterangan penerima/bukan penerima bantuan UKT oleh Universitas. <br> h. Khusus mahasiswa BKP PMM inbound, dibuatkan surat keterangan aktif mengikuti PMM di PT Penerima <br> B. MBKM Program Mandiri UMMI <br> 1. Universitas <br> a. Program Studi mengajukan program MBKM di siak melalui surat permohonan ke Koordinator MBKM tingkat Universitas yang berisi surat permohonan, dokumen kerjasama dengan mitra dan dokumen assesment. <br> b. Khusus BKP PMM, Program Studi melampirkan dokumen kerja sama dengan Universitas mitra yang isinya terlampir daftar mahasiswa outbound dan inbound, serta mata kuliah lengkap dengan deskripsinya <br> <br> untuk informasi lebih lanjut bisa didownload melalui <br> <a href='https://ummi.ac.id/id/download/get/-pedoman-administrasi-akademik-2022.pdf'>Informasi dan lainnya</a> <br>  <a href='https://pmm.kampusmerdeka.kemdikbud.go.id/'>Link Pendaftaran </a> <br> <a href='https://bit.ly/mk-pmm3-ummi'>Info MK PMM di UMMI</a> <br> <a href='https://bit.ly/pmm-dn-3-inbound'> Telegram</a>"]
+    }, {
+      "tag": "pembayaran cicil",
+      "patterns": ["untuk uang semester 1 bisa dicicil atau harus langsung semuanya?", "apakah pembayaran bisa dicicil?", "apakah biaya kuliah bisa dicicil", "klo biaya pendidikan bayarnya bisa bertahap gk?", "Apakah UMMI menyediakan  pembayaran angsuran untuk perkuliahan?"], 
+      "responses": ["Bisa dicicil kak, untuk skema pencicilannya <br> 1. Di awal kakak harus membayar 1,4jt sebagai registrasi ulang <br> 2. Kemudian kakak harus membayar sampai mencapai 50% dari total keseluruhan untuk melakukan KRS <br> 3. Membayar kembali sampai mencapai 75% dari total keseluruhan sebelu UTS <br> 4. Dan terakhir membayar sisanya untuk mencapai 100% pada pembiayaan PMB/kuliah di smt 1 sebelum UAS "]
+    }, {
+      "tag": "non-reg", 
+      "patterns": ["kelas non reguler itu gmna ya kak?", "kelas non reguler masuknya hari apa aja?", "Program studi yang membuka kelas karyawan apa saja?", "jurusan yang ada kelas karyawannya"], 
+      "responses": ["Program studi yang membuka kelas karyawan di UMMI tahun 2023: <br> 1. Saintek(Jadwal Sabtu-Minggu) (Teknik Informatika, Teknik Sipil, Kimia) <br> 2. Pertanian (Jadwal Weekend - Weekdays) (Agribisnis, Akuakultur) <br> 3. FIAH (Jadwal Sabtu-Minggu) (Admibistrasi Publik, Administrasi Bisnis) <br> 4. Ekonomi(Akutansi, Manajemen Ritel) <br> 5. Hukum(Hukum)"]
+    }, {
+      "tag": "KIP", 
+      "patterns": ["cara daftar beasiswa KIP", "tahapan pendaftaran beasiswa KIP", "Langkah-langkah untuk mendapatkan beasiswa KIP","persyaratan mendaftar KIP", "langkah2 untuk bisa menggunakan beasiswa KIP dari luar gmna ya kak?", "cara mendaftar jalur KIP kuliah di ummi caranya gmna?", "Beasiswa Kartu Indonesia Pintar"],
+      "responses": ["Baik kaka, untuk alur pendaftaran mahasiswa KIP yaitu : <br> 1. Pastikan kakak sudah mendaftar di web <a href='https://kip-kuliah.kemdikbud.go.id'>Klik Disini</a> silahkan di isi data lengkapnya sesuai yang ada di portal web KIP Kuliah. Pastikan data kakak terdaftar di DTKS <br> 2. Setelah selesai tahapan pendaftaran di web KIP Kuliah. Silahkan melakukan pendaftaran di web PMB UMMI di ( www.pmb.ummi.ac.id ) silahkan mengisi data diri, pilihan program studi, dan memilih jalur KIP.  <br> 3. Setelah semua tahapan selesai silahkan melakukan pembayaran sesuai nomimal yang tersedia pada akun PMB UMMI. Nominalnya Rp. 202.000, jangan tertinggal 2.000 nya ya kak <br> 4. Setelah melakukan pembayaran silahkan melanjutkan tahapan pendaftaran sampai mengunggah berkas, berkasnya apa saja : <br> &nbsp;&nbsp; 1. Ijazah / Rapot semester 5 atau 6 <br> &nbsp;&nbsp; 2. Pas foto ukuran 3x4 <br> &nbsp;&nbsp; 3. Surat keterangan aktif sekolah <br> &nbsp;&nbsp; 4. KTP / KK <br> &nbsp;&nbsp;5. Keterangan penerima <br> KIP Kuliah yang bisa didapatkan di web KIP Kuliah (Formulir KIP-K) Saat berkas selesai di unggah mohon menunggu konfirmasi dari kami melalui email ya kak. Note : untuk mahasiswa KIP akan ada tes terlebih dahulu, terkait jadwal tes akan di informasikan oleh panitia KIP dengan memasukkan nomor calon mahasiswa ke dalam grup whatsapp <br> #Untuk pendaftaran mahasiswa KIP pastikan data kakak terdata di DTKS yaa <br> #KIP tidak berlaku untuk prodi keperawatan baik D3 atau S1,  Teknik Sipil, Administrasi Bisnis, Administrasi Publik, Hubungan Masyarakat, dan Ilmu Hukum  <br> #KIP hanya untuk kelas Reguler tidak bisa kelas karyawan"]
+    }, {
+      "tag": "Pembayaran BCA", 
+      "patterns": ["cara pembayaran menggunakan bank BCA?", "tahapan pembayaran menggunakan bank BCA", "BCA"], 
+      "responses": ["Tahapan pembayaran menggunakan bank BCA <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 ...) <br> 2. Silahkan masuk ke aplikasi mobile banking BCA <br> 3. Masuk ke menu m-transfer <br> 4. Masuk ke menu daftar transfer kemudian masuk ke antar bank <br> 5. Masukkan nomor rekening dan pilih bank BSI <br> 6. Klik kirim dan pastikan nama yang muncul sesuai dengan nama mahasiswa yang akan melakukan pembayaran <br> 7. Setelah rekening terdaftar, masuk ke menu transfer dan pilih antar bank <br> 8. Masukkan bank BSI dan no rekening yang baru saja di daftarkan <br> 9. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 10. Kirim setelah data sesuai <br> 11. Pilih layanan transfer REALTIME bukan BI FAST"]
+    }, {
+      "tag": "Pembayaran BNI", 
+      "patterns": ["cara pembayaran menggunakan bank BNI?", "tahapan pembayaran menggunakan bank BNI", "BNI"], 
+      "responses": ["Tahapan pembayaran menggunakan bank BNI : <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 ...) <br> 2. Masuk ke aplikasi mobile BNI <br> 3. Pilih menu transfer <br> 4. Pilih BI Fast <br> 5. Pada menu metode transfer masukkan bank BSI <br> 6. Masukkan nomor rekening berupa no VA yang sudah disalin pada halamn website UMMI <br> 7. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 8. Pilih lanjutkan <br> 9. Pastikan detail nya sudah benar dan sesuai sebelum melakukan pembayaran <br> 10. Masukkan password"]
+    }, {
+      "tag": "Pembayaran BSI", 
+      "patterns": ["cara pembayaran menggunakan bank BSI?", "tahapan pembayaran menggunakan bank BSI", "BSI"],
+      "responses": ["Tahapan pembayaran perkuliahan menggunakan bank BSI <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 ...) <br> 2. Masuk ke m-banking BSI <br> 3. Masuk ke menu bayar <br> 4. Pilih menu akademik <br> 5. Masukkan password <br> 6. Pada menu akademik silahkan memasukan nama akademik Universitas Muhammadiyah Sukabumi atau dengan kode (9072) <br> 7. Masukkan kode bayar yang disediakan di virtual account tanpa memasukan awalan (900 9072) <br> 8. Pastikan nama yang muncul adalah nama mahasiswa dan nominal yang benar <br> 9. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000)"]
+    }, {
+      "tag": "Pembayaran BRI", 
+      "patterns": ["cara pembayaran menggunakan bank BRI?", "tahapan pembayaran menggunakan bank BRI", "BRI"],
+      "responses": ["Tahapan pembayaran menggunakan bank BRI <br> Silahkan salin no VA yang ada di sistem (900 9072 .... ) <br> 1. Masuk ke aplikasi BRImo <br> 2. Pilih menu transfer <br> 3. Masukkan bank tujuan bank BSI <br> 4. Pilih Metode Transfer 'Real Time' <br> 5. Masukkan nomor rekening berupa VA yang sudah disalin dari sistem <br> 6. Klik lanjutkan, pastikan nama calon mahasiswa muncul dan jumlah nominal yang harus dibayarkan <br> 7. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 8. Klik transfer"]
+    },{
+      "tag": "Pembayaran Mandiri", 
+      "patterns": ["cara pembayaran menggunakan bank Mandiri?", "tahapan pembayaran menggunakan bank Mandiri", "Mandiri"],
+      "responses": ["Tahapan pembayaran menggunakan bank Mandiri : <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 .... ) <br> 2. Klik mobile banking livin by mandiri <br> 3. Masukkan password <br> 4. Pilih menu transfer <br> 5. Pilih transfer ke penerima baru <br> 6. Pilih bank BSI <br> 7. Masukkan no virtual account yang sudah disalin tadi <br> 8. Pastikan detail transfer benar dan muncul sistem ummi / nama mahasiswa <br> 9. Klik lanjutkan dan masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 10. Pilih metode transfer BI Fast jika BI Fast gagal silahkan pilih Transfer Online <br> 11. Pastikan kembali data sudah benar <br> 12. Klik 'transfer' <br> 13. Screenshot bukti transfer dan simpan"]
+    }, {
+      "tag": "Pembayaran CIMB NIAGA", 
+      "patterns": ["cara pembayaran menggunakan bank CIMB NIAGA?", "tahapan pembayaran menggunakan bank CIMB NIAGA", "CIMB NIAGA"],
+      "responses": ["Tahapan pembayaran menggunakan bank CIMB NIAGA <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 .... ) <br> 2. Masuk ke aplikasi octo mobile <br> 3. Silahkan log in terlebih dahulu <br> 4. Masuk ke menu transfer <br> 5. Pilih menu transfer ke bank lainnya <br> 6. Pilih tipe transaksi 'Online' <br> 6. Masukkan nomor rekening berupa no VA yang sudah di salin pada sistem <br> 7. Pilih bank BSI <br> 8. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 9. Pilih waktu transaksi sekarang <br> 10. Masukkan pin aplikasi mobile <br> 11. Simpan bukti transfer"]
+    },{
+      "tag": "Pembayaran  BJB", 
+      "patterns": ["cara pembayaran menggunakan bank  BJB?", "tahapan pembayaran menggunakan bank  BJB", " BJB"],
+      "responses": ["Tahapan pembayaran menggunakan bank BJB <br> 1. Silahkan salin no VA yang ada di sistem (900 9072 .... ) <br> 2. Masuk ke aplikasi BJB Digi/BJB Mobile <br> 3. Log in ke dalam aplikasi menggunakan kode akses pribadi <br> 4. Pilih menu trasnfer <br> 5. Pilih antar bank <br> 6. Masukkan bank tujuan yaitu bank BSI <br> 7. Pilih rekening tujuannya adalah “Rek Lain” <br> 8. Masukkan no VA yang sudah disalin pada sistem <br> 9. Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 10. Masukkan penerima adalah UMMI Sukabumi, dan lengkapi semua yang ada pada sistem <br> 11. Periksa kembali apakah sudah sesuai <br> 12. Masukkan pin bjb mobile <br> 13. Setelah pembayaran berhasil, screenshoot dan simpan bukti pembayaran"]
+    }, {
+      "tag": "Pembayaran  Muamalat", 
+      "patterns": ["cara pembayaran menggunakan bank  Muamalat?", "tahapan pembayaran menggunakan bank Muamalat", " Muamalat"],
+      "responses": ["Silahkan salin no VA yang ada di sistem (900 9072 .... ) <br> 1. Masuk ke aplikasi mobile muamalat (Muamalat Din) <br> 2. Klik log in dan masukkan password <br> 3. Klik menu 'Transfer Dana' <br> 4. Klik menu 'Rekening Penerima' <br> 5. Klik ikon plus (+) di sudut kiri bawah, untuk menentukan bank tujuan <br> 6. Pilih bank yang akan dituju <br> 7. Masukkan no rekening berupa no VA yang sudah disalin pada halaman web UMMI kemudian klik lanjut <br> 8. Masukkan nama panggilan UMMi Sukabumi <br> 9.Masukkan nominal pembayaran sesuai yang ada pada sistem, jangan lupa untuk menambahkan 2.000 dalam transaksi (Misalnya 202.000 / 1.402.000) <br> 10. Pilih jadwal transfer 'Segera' <br> 11. Pilih metode transfer “Transfer Online” <br> 12. Klik lanjut <br> 13. Pastikan data yang dimasukkan sudah sesuai <br> 14. Masukkan tin mobile banking dan klik lanjut <br> 15. Jika pembayaran berhasil silahkan screenshoot dan simpan"]
+    }, {
+      "tag": "Pembayaran Dana", 
+      "patterns": ["cara pembayaran menggunakan bank Dana?", "tahapan pembayaran menggunakan bank Dana", "Dana"],
+      "responses": ["Tahapan pembayaran menggunakan aplikasi Dana : <br> 1. Masuk ke Aplikasi Dana <br> 2. Klik menu kirim <br> 3. Pilih kirim ke ke Bank <br> 4. Pilih bank BSI <br> 5. Masukkan no Rekening yang ada di halaman web UMMI (900 9072 ... ) <br> 6. Klik simpan dan lanjut <br> 7. Masukkan jumlah uang yang akan di tf, jangan lupa ditambahkan 2.000 <br> Misalnya : 202.000 / 1.402.000 <br> 8. Masukkan pin dana, dan tunggu sampai transaksi berhasil <br> 9. Setelah transaksi berhasil screenshot / simpan bukti tf"]
+    }, {
+      "tag": "FKIP", 
+      "patterns": ["FKIP", "Fakultas Keguruan dan Ilmu Pendidikan ummi", "FKIP ummi", "Informasi seputar FKIP"], 
+      "responses": ["Untuk informasi seputar FKIP bisa diakses di  <br> <a href='https://www.fkip.ummi.ac.id/'>Klik Disini</a>"]
+    }, {
+      "tag": "PTI", 
+      "patterns": ["PTI", "pendidikan informasi", "PTI ummi"], 
+      "responses": ["Untuk informasi seputar PTI bisa diakses di  <br> <a href='https://pti.ummi.ac.id/'>Klik Disini</a>"]
+    },  {
+      "tag": "PBI", 
+      "patterns": ["PBI", "pendidikan bahasa indonesia", "PBI ummi"], 
+      "responses": ["Untuk informasi seputar PBI bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-bahasa-indonesia'>Klik Disini</a>"]
+    }, {
+      "tag": "Biologi", 
+      "patterns": ["Biologi", "Pendidikan biologi", "biologi ummi"], 
+      "responses": ["Untuk informasi seputar Pendidikan Biologi bisa diakses di  <br> <a href='https://biologi.ummi.ac.id/'>Klik Disini</a>"]
+    }, {
+      "tag": "PG PAUD", 
+      "patterns": ["PG PAUD", "Pendidikan Guru PAUD", "PG PAUD ummi", "PGPAUD"], 
+      "responses": ["Untuk informasi seputar Pendidikan Guru PAUD bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-pendidikan-anak-usia-dini'>Klik Disini</a>"]
+    }, {
+      "tag": "PGSD", 
+      "patterns": ["PG SD", "Pendidikan Guru Sekolah Dasar", "PGSD ummi"], 
+      "responses": ["Untuk informasi seputar Pendidikan Guru SD bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-guru-sekolah-dasar'>Klik Disini</a>"]
+    }, {
+      "tag": "PJKR", 
+      "patterns": ["PJKR", "Pendidikan Jasmani, Kesehatan, Rekreasi", "PJKR ummi"], 
+      "responses": ["Untuk informasi seputar PJKR bisa diakses di  <br> <a href='https://pjkr.ummi.ac.id/'>Klik Disini</a>"]
+    }, {
+      "tag": "Pendidikan MTK", 
+      "patterns": ["Pendidikan Matematika", "Pendidikan Matematika ummi"], 
+      "responses": ["Untuk informasi seputar Pendidikan MTK bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/keguruan-dan-ilmu-pendidikan/pendidikan-matematika'>Klik Disini</a>"]
+    }, {
+      "tag": "Fakultas Ekonomi", 
+      "patterns": ["Fakultas Ekonomi", "Fakultas Ekonomi ummi", "FE"], 
+      "responses": ["Untuk informasi seputar Fakultas Ekonomi bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi'>Klik Disini</a>"]
+    }, {
+      "tag": "Akutansi", 
+      "patterns": ["Akutansi", "Akutansi UMMI"], 
+      "responses": ["Untuk informasi seputar Program Studi Akutansi bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/akuntansi'>Klik Disini</a>"]
+    }, {
+      "tag": "Perpajakan", 
+      "patterns": ["Perpajakan", "Perpajakan UMMI", "Prodi Perpajakan", "Jurusan Perpajakan", "Program studi Perpajakan"], 
+      "responses": ["Untuk informasi seputar Program Studi Akutansi bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/d-iii-perpajakan'>Klik Disini</a>"]
+    }, {
+      "tag": "Manajemen Retail", 
+      "patterns": ["Manajemen Retail", "Manajemen Retail UMMI", "Prodi Manajemen Retail", "Jurusan Manajemen Retail", "Program studi Manajemen Retail"], 
+      "responses": ["Untuk informasi seputar Manajemen Retail bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ekonomi/manajemen-retail'>Klik Disini</a>"]
+    }, {
+      "tag": "Fakultas Ilmu Administrasi dan Humaniora", 
+      "patterns": ["Fakultas Ilmu Administrasi dan Humaniora", "Fakultas Ilmu Administrasi dan Humaniora UMMI", "FIAH ummi"], 
+      "responses": ["Untuk informasi seputar Fakultas Ilmu Administrasi dan Humaniora bisa diakses di  <br> <a href='https://fiah.ummi.ac.id/?lang=en'>Klik Disini</a>"]
+    }, {
+      "tag": "ADPUB", 
+      "patterns": ["ADPUB", "Administrasi Publik", "ADPUB ummi"], 
+      "responses": ["Untuk informasi seputar Administrasi Public bisa diakses di  <br> <a href='https://fiah.ummi.ac.id/?lang=en'>Klik Disini</a>"]
+    },{
+      "tag": "ADBIS", 
+      "patterns": ["ADBIS", "Administrasi Bisnis", "ADBIS ummi"], 
+      "responses": ["Untuk informasi seputar Administrasi Bisnis bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-bisnis'>Klik Disini</a>"]
+    }, {
+      "tag": "HUMAS", 
+      "patterns": ["HUMAS", "Hubungan Masyarakat", "HUMAS ummi"], 
+      "responses": ["Untuk informasi seputar Hubungan Masyarakat bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/administrasi-bisnis'>Klik Disini</a>"]
+    },  {
+      "tag": "SASING", 
+      "patterns": ["Sasing", "Sastra Inggris", "Sasing ummi"], 
+      "responses": ["Untuk informasi seputar Sastra Inggris bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/ilmu-administrasi-dan-humaniora/hubungan-masyarakat'>Klik Disini</a>"]
+    },  {
+      "tag": "Magister Ilmu Adminisitrasi", 
+      "patterns": ["Magister Ilmu Adminisitrasi", "Magister Ilmu Adminisitrasi ummi"], 
+      "responses": ["Untuk informasi seputar Magister Ilmu Adminisitrasi bisa diakses di  <br> <a href='https://mia.ummi.ac.id/'>Klik Disini</a>"]
+    }, {
+      "tag": "SAINTEK", 
+      "patterns": ["saintek", "Fakultas Sains dan Teknologi","saintek ummi"], 
+      "responses": ["Untuk informasi seputar Fakultas Sains dan Teknologi bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi'>Klik Disini</a>"]
+    }, {
+      "tag": "Kimia", 
+      "patterns": ["KIMIA", "kimia ummi"], 
+      "responses": ["Untuk informasi seputar Program Studi Kimia bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/sains-dan-teknologi/kimia'>Klik Disini</a>"]
+    },  {
+      "tag": "Teknik Informatika", 
+      "patterns": ["Teknik Informatika", "TI ummi", "TI"], 
+      "responses": ["Untuk informasi seputar Teknik Informatika bisa diakses di  <br> <a href='https://informatika.ummi.ac.id/'>Klik Disini</a>"]
+    },{
+      "tag": "Teknik Sipil", 
+      "patterns": ["Teknik Sipil", "TS ummi", "TS"], 
+      "responses": ["Untuk informasi seputar Teknik Sipil bisa diakses di  <br> <a href='https://tekniksipil.ummi.ac.id/'>Klik Disini</a>"]
+    },{
+      "tag": "Fakultas Pertanian", 
+      "patterns": ["Fakultas Pertanian",  "Pertanian"], 
+      "responses": ["Untuk informasi seputar Fakultas Pertanian bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/pertanian'>Klik Disini</a>"]
+    },{
+      "tag": "Agribisnis", 
+      "patterns": ["Agribisnis", "Agribisnis ummi"], 
+      "responses": ["Untuk informasi seputar Agribisnis bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/pertanian/agribisnis'>Klik Disini</a>"]
+    },{
+      "tag": "Akuakultur", 
+      "patterns": ["Akuakultur", "Akuakultur ummi"], 
+      "responses": ["Untuk informasi seputar Akuakultur bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/pertanian/akuakultur'>Klik Disini</a>"]
+    },{
+      "tag": "Fakultas Hukum", 
+      "patterns": ["Fakultas Hukum", "Fakultas Hukum ummi", "FH"], 
+      "responses": ["Untuk informasi seputar Fakultas Hukum bisa diakses di  <br><a href='https://fh.ummi.ac.id/'>Klik Disini</a>"]
+    },{
+      "tag": "Ilmu Hukum", 
+      "patterns": ["Ilmu Hukum", "Ilmu Hukum ummi"], 
+      "responses": ["Untuk informasi seputar Ilmu Hukum bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/hukum/ilmu-hukum'>Klik Disini</a>"]
+    },{
+      "tag": "Fakultas Kesehatan", 
+      "patterns": ["Fakultas Kesehatan", "FKES ummi", "FKES"], 
+      "responses": ["Untuk informasi seputar Fakultas Kesehatan bisa diakses di  <br> <a href='https://fkes.ummi.ac.id/'>Klik Disini</a>"]
+    },{
+      "tag": "D3 Keperawatan", 
+      "patterns": ["D3 Keperawatan", "Keperawatan ummi"], 
+      "responses": ["Untuk informasi seputar D3 Keperawatan bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/d-iii-keperawatan'>Klik Disini</a>"]
+    },{
+      "tag": "S1 Keperawatan dan Profesi Ners", 
+      "patterns": ["S1 Keperawatan dan Profesi Ners", "Keperawatan dan Profesi Ners"], 
+      "responses": ["Untuk informasi seputar S1 Keperawatan dan Profesi Ners bisa diakses di  <br> <a href='https://ummi.ac.id/id/fakultas/kesehatan/s1-keperawatan-dan-profesi-ners'>Klik Disini</a>"]
+    }, {
+      "tag": "identitas",
+      "patterns": ["arti logo ummi", "logo ummi", "identitas ummi", "makna logo ummi", "arti lambang", "makna lambang"], 
+      "responses": ["<img src='https://ummi.ac.id/assets/uploads/tentang/1659939149.png' width='100%'> <br> Lambang UMMI terdiri dari perisai bersudut lima, dengan bingkai warna merah dan kuning, di dalamnya bertuliskan Universitas Muhammadiyah Sukabumi dengan warna putih, lambang Muhammadiyah yang dilingkari  gambar padi berjumlah 19 dan kapas berjumlah 12 menandakan sebagai tahun kelahiran muhammadiyah. <br> Lambang UMMI simbol pencerahan sebuah citra dan spirit yang tumbuh dari cipta, cita, rasa, karsa dan karya segenap sivitas akademika UMMI dalam menghadapi tantangan zaman. <br> Matahari kuning Muhammadiyah merupakan simbol bahwa UMMI membawa pencerahan baru menuju masa depan pendidikan tinggi Indonesia yang lebih baik dan menggambarkan daya hidup, vitalitas serta dinamika yang memancar dari dalam diri untuk memberikan sumber kehidupan. Jumlah cahaya dua belas rumpun cahaya. <br> <br> <b>Moto UMMI:</b> <i>Unggul dalam keilmuan dan keislaman </i><br> Makna Lambang: <br> 1. Lambang UMMI berbentuk gambar matahari dengan dua belas sinar yang memancar ke segenap penjuru, dengan warna kuning keemasan, diambil dari lambang Persyarikatan Muhammadiyah. Di tengah-tengah matahari tertulis Muhammadiyah, dengan huruf Arab, yang berarti: Pengikut Nabi Muhammad Saw. Pada Lingkaran luar sebelah atas tertulis syahadat tauhid dengan huruf Arab: 'Asyhadu Anla ilaaha illa Allah', yang artinya 'Saya bersaksi bahwasanya tiada Tuhan selain Allah'. Pada lingkaran luar sebelah bawah tertulis syahadat Rasul dengan huruf Arab: 'Wa asyhadu anna Muhammadar Rasulullah', yang artinya 'Dan saya bersaksi bahwasanya Muhammad Saw adalah utusan Allah'. Gambar matahari melambangkan daya vitalitas dan dinamika yang memancar dari dalam dirinya sendiri, yang memberikan kehidupan kepada lainnya. Muhammadiyah mentamsilkan dirinya sebagaimana matahari yang akan memancarkan sinar kehidupan rohani, yang intinya terletak dalam dua kalimat syahadat kepada siapapun yang ditemuinya (al-Anfal: 24). Dua belas sinar matahari melambangkan semangat kaum Hawary, yaitu dua belas sahabat Nabi Isa as yang senantiasa siap berjuang demi kemuliaan Agama Islam. Muhammadiyah mentamsilkan dirinya sebagai kaum Hawary yang memiliki semangat juang yang sangat tinggi untuk melaksanakan dakwah Islam amar makruf nahi munkar di mana dan kapanpun juga dengan dilandasi motivasi semata-mata mencari keridaan Allah Swt (as-Shaff: 14). Lambang matahari dijadikan inti Lambang Universitas sekaligus memberikan penegasan bahwa UMMI merupakan salah satu amal usaha Muhammadiyah, berdiri di bawah panji-panji Persyarikatan Muhammadiyah, oleh karena itu seluruh nafas, gerak dan aktifitasnya wajib diselaraskan dengan keyakinan dan cita-cita hidup Muhammadiyah. <br> 2. Padi dan Kapas yang melingkari matahari melambangkan kesejahteraan dan kemakmuran. UMMI merupakan lembaga pendidikan tinggi yang didirikan oleh Persyarikatan Muhammadiyah, bertujuan untuk terwujudnya sarjana muslim berakhlak mulia, yaitu cendekiawan yang siap mengemban misi selaku khalifah Allah di bumi, yang tugas utamanya mengupayakan terwujudnya kehidupan masyarakat yang penuh dengan keadilan, kebenaran dan kedamaian, serta terwujudnya kehidupan masyarakat yang makmur sejahtera. Lima kelopak bunga yang melingkar melambangkan Pancasila sebagai dasar dan falsafah Negara Republik Indonesia sekaligus melambangkan Dinnul Islam yang ditegakkan di atas lima prinsip: dua kalimah syahadat, salat, puasa ramadan, menunaikan zakat, dan haji ke Baitullah. Lima kelopak bunga ini melatarbelakangi gambar matahari yang dilingkari oleh padi dan kapas."]
+    }, {
+      "tag": "mars ummi",
+      "patterns": ["lagu ummi", "mars ummi", "mars muhammadiyah"], 
+      "responses": ["<iframe width='100%' src='https://www.youtube.com/embed/5HHhaf57oVw'  frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe> <br><br> <b> Mars UMMI</b> <br> <i>Cipt. Eka Janwar Muharam, SE</i><br> Universitas Muhammadiyah Sukabumi <br> Tampil Dengan Paradigma <br> Baru Siap Membentuk Insan Mandiri <br> Ayo Kita Tekadkan Bersama Semuanya <br> Sambut Dengan Tangan Yang Terbuka <br> Hadirnya UMMI Kita Tercinta <br> <i>Reff.</i> <br> Berjuanglah Demi Negara <br> Berbakti Kepada Allah <br> Tuk Masa Depan Nanti <br> Kembangkanlah UMMI <br> Majulah Negeri<br> Jangan Sampai Mati <br> Kejayaan Abadi <br> <br> <b> HYMNE UMMI </b> <br> <i>Cipt. Eka Janwar Muharam, SE </i><br> Sang Surya Telah Bersinar <br> Di Ufuk Sana <br> Mengajak Semua <br> Membangun Bangsa Dan Agama <br> *UMMI Ummul Ilmi <br> Tempat Mencari <br>Ilmu Yang Hakiki <br>Dari Insan-Insan Yang Suci <br> <i>Bridge:</i> <br> Benderang Fajar Harapan <br> Tuk Masa Depan <br>Reff: <br> MarilahWahai Kita Semua <br> Kembangkanlah UMMI Yang Tercinta <br> Berjasa Pada Negara <br> Bakti Pada Allah <br> <i>Kembali Ke *</i> <br> Beramal Dan Berjuang <br> Tak Pernah Lekang <br> Sampai Ajal Datang <br> Sang Surya Tetaplah KanTerang <br>( Sang Surya Tetaplah Kan Terang ) <br> <br> <b>MARS MUHAMMADIYAH</b> <br> <i>Ciptaan: H. Djarnawi Hadikusumo </i><br> Sang Surya Tetap Bersinar <br> Syahadat Dua Melingkar <br> Warna Yang Hijau Berseri <br> Membuatku Rela Hati <br> Ya Allah Tuhan Rabbiku <br> Muhammad Junjunganku <br> Al Islam Agamaku <br> Muhammadiyah Gerakanku <br> Di Timur Fajar Cerah Gemerlapan <br> Mengusir Kabut Hitam <br> Menggugah Kaum Muslimin <br> Tinggalkan Peraduan <br>Lihatlah Matahari Telah Tinggi <br> Di Ufuk Timur Sana <br>Seruan Illahi Rabbi <br>Samina Wa Atthona <br>Ya Allah Tuhan Rabbiku <br> Muhammad Junjunganku <br>Al Islam Agamaku <br>Muhammadiyah Gerakanku"]
+    }
+    
+  ]
+}

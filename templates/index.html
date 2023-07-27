@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UMMIBOT</title>
+</head>
+<body>
+<div class="blur-background"></div>
+<div class="centered-text">
+    <h1>UMMIBOT</h1>
+    <p> Layanan Informasi Penerimaan Mahasiswa Baru Universitas Muhammadiyah Sukabumi</p>
+</div>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/UMMI.png') }}" width="48" height="48" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">UMMIBOT</h4>
+                    <p class="chatbox__description--header">Halo saya UMMIBOT, ada yang bisa saya bantu?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Tulis Pesan ...">
+                <button class="chatbox__send--footer send__button">Kirim</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/UMMI.png') }}" width="48" height="48" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = (request.script_root|tojson);
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
